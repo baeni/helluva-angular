@@ -1,8 +1,8 @@
-<div
+@let _artist = artist();
+<a
   class="w-full h-76 flex flex-col gap-2 p-3 rounded-xl bg-(--color-secondary) hover:scale-[102%] transition-transform"
+  [href]="`/artists/${_artist.id}`"
 >
-  @let _artist = artist();
-
   <div class="w-full aspect-square">
     <img
       class="rounded-md overflow-hidden"
@@ -29,4 +29,4 @@
       }
     </ul> -->
   </div>
-</div>
+</a>
