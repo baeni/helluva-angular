@@ -1,1 +1,26 @@
-/* You can add global styles to this file, and also import other style files */
+@import 'tailwindcss';
+
+[class^='mgc_']::before,
+[class*=' mgc_']::before {
+  color: inherit !important;
+}
+
+@custom-variant dark (&:where(.dark, .dark *));
+
+@theme {
+  --breakpoint-2xl: 96rem;
+  --breakpoint-xl: 80rem;
+  --breakpoint-lg: 64rem;
+  --breakpoint-md: 48rem;
+  --breakpoint-sm: 40rem;
+}
+
+:root {
+  --color-primary: #03345e;
+  --color-secondary: #5486b4;
+  --color-tertiary: #d1d9e4;
+}
+
+body {
+  @apply bg-(--color-primary);
+}

@@ -1,0 +1,354 @@
+[
+  {
+    "id": "2D3F6B11-9E5B-4E6F-AD3A-CF2DEF9838E4",
+    "name": "Charlie",
+    "thumbnail": "https://google.de",
+    "url": "https://google.de",
+    "_comment": "Required"
+  },
+  {
+    "id": "6F6A4B24-5DCF-4638-8ABF-32C67DADE59D",
+    "name": "Vaggie",
+    "thumbnail": "https://google.de",
+    "url": "https://google.de",
+    "_comment": "Required"
+  },
+  {
+    "id": "96C43817-0F24-4E64-A571-F63B191B68E6",
+    "name": "Alastor",
+    "thumbnail": "https://google.de",
+    "url": "https://google.de",
+    "_comment": "Required"
+  },
+  {
+    "id": "6BE1F7AA-093B-4939-A5B4-D194F074A908",
+    "name": "Lucifer",
+    "thumbnail": "https://google.de",
+    "url": "https://google.de",
+    "_comment": "Required"
+  },
+  {
+    "id": "3BC49282-5A6B-4F43-AD78-87A9BF29A7C7",
+    "name": "Angel Dust",
+    "thumbnail": "https://google.de",
+    "url": "https://google.de",
+    "_comment": "Required"
+  },
+  {
+    "id": "ABE4CF4A-15C2-4D0C-9C14-635AA015F318",
+    "name": "Husk",
+    "thumbnail": "https://google.de",
+    "url": "https://google.de",
+    "_comment": "Required"
+  },
+  {
+    "id": "1B5BADEA-287A-41A4-A0F1-4097806B2786",
+    "name": "Niffty",
+    "thumbnail": "https://google.de",
+    "url": "https://google.de",
+    "_comment": "Required"
+  },
+  {
+    "id": "5B5598DD-61E6-4F48-B2D6-CF8301B8D0DD",
+    "name": "Baxter",
+    "thumbnail": "https://google.de",
+    "url": "https://google.de",
+    "_comment": "Required"
+  },
+  {
+    "id": "A7496036-6E22-48A3-8C96-06D07FEE9E54",
+    "name": "Cherrie",
+    "thumbnail": "https://google.de",
+    "url": "https://google.de",
+    "_comment": "Required"
+  },
+  {
+    "id": "B2B9DCAA-30C4-4584-A2EA-9311D8202E0A",
+    "name": "Sir Pentious (Egg bois?)",
+    "thumbnail": "https://google.de",
+    "url": "https://google.de",
+    "_comment": "Required"
+  },
+  {
+    "id": "0C8108CB-58E5-492C-B8A2-C332056E17AB",
+    "name": "Vox",
+    "thumbnail": "https://google.de",
+    "url": "https://google.de",
+    "_comment": "Required"
+  },
+  {
+    "id": "7A6520D0-D93F-4633-8DC0-C0C8FB2EB602",
+    "name": "Valentino",
+    "thumbnail": "https://google.de",
+    "url": "https://google.de",
+    "_comment": "Required"
+  },
+  {
+    "id": "A64461BF-4FF3-4B6A-9B72-490458C01EA2",
+    "name": "Velvette",
+    "thumbnail": "https://google.de",
+    "url": "https://google.de",
+    "_comment": "Required"
+  },
+
+  {
+    "id": "06D235EC-4A1A-4A7D-9834-C1812330C693",
+    "name": "Rosie",
+    "thumbnail": "https://google.de",
+    "url": "https://google.de",
+    "_comment": "Optional"
+  },
+  {
+    "id": "78210D0F-6AC7-44D7-B761-EB793F952D22",
+    "name": "Mimzy",
+    "thumbnail": "https://google.de",
+    "url": "https://google.de",
+    "_comment": "Optional"
+  },
+  {
+    "id": "AD70D21E-1499-482D-AF2A-6D73C17A15CD",
+    "name": "Carmilla",
+    "thumbnail": "https://google.de",
+    "url": "https://google.de",
+    "_comment": "Optional"
+  },
+  {
+    "id": "116C71EA-8FA9-479E-B247-EC028138CF77",
+    "name": "(Clara + Odette)",
+    "thumbnail": "https://google.de",
+    "url": "https://google.de",
+    "_comment": "Optional"
+  },
+  {
+    "id": "8350A04A-3B92-4C62-AA7A-F2F8E2B4D303",
+    "name": "Zestial",
+    "thumbnail": "https://google.de",
+    "url": "https://google.de",
+    "_comment": "Optional"
+  },
+  {
+    "id": "A4C24407-91B4-40AE-80E5-82AB877A69FC",
+    "name": "Lilith",
+    "thumbnail": "https://google.de",
+    "url": "https://google.de",
+    "_comment": "Optional"
+  },
+  {
+    "id": "567DC0FF-D184-49C5-A06D-64D7FD8B9820",
+    "name": "Katie Killjoy + Tom Trench",
+    "thumbnail": "https://google.de",
+    "url": "https://google.de",
+    "_comment": "Optional"
+  },
+  {
+    "id": "F0C6ECA7-8C3D-49FE-A0C4-2C65612B09DF",
+    "name": "Razzle/Dazzle",
+    "thumbnail": "https://google.de",
+    "url": "https://google.de",
+    "_comment": "Optional"
+  },
+  {
+    "id": "C722C88B-4AAF-47FE-BDC8-61122E12312B",
+    "name": "Fat Nuggets + Keekee",
+    "thumbnail": "https://google.de",
+    "url": "https://google.de",
+    "_comment": "Optional"
+  },
+  {
+    "id": "AF5741CE-8C08-4E95-9B98-90EFEC93CBC8",
+    "name": "Alastor's shadow",
+    "thumbnail": "https://google.de",
+    "url": "https://google.de",
+    "_comment": "Optional"
+  },
+  {
+    "id": "62CEAD85-90BE-4004-9503-BBAE6D31F9FE",
+    "name": "Lute (+ Adam?)",
+    "thumbnail": "https://google.de",
+    "url": "https://google.de",
+    "_comment": "Optional"
+  },
+  {
+    "id": "96FDDC2F-E79C-4FA7-9078-1630DE5D4AC3",
+    "name": "Sera",
+    "thumbnail": "https://google.de",
+    "url": "https://google.de",
+    "_comment": "Optional"
+  },
+  {
+    "id": "29F0E12B-8313-4D32-8492-7E0451F36170",
+    "name": "Emily",
+    "thumbnail": "https://google.de",
+    "url": "https://google.de",
+    "_comment": "Optional"
+  },
+  {
+    "id": "4B577DCF-054F-45DE-983F-0C8AAD0261B0",
+    "name": "The Godspeaker",
+    "thumbnail": "https://google.de",
+    "url": "https://google.de",
+    "_comment": "Optional"
+  },
+  {
+    "id": "1F26E280-DDED-468B-9C80-C937590F6A56",
+    "name": "St.Peter",
+    "thumbnail": "https://google.de",
+    "url": "https://google.de",
+    "_comment": "Optional"
+  },
+  {
+    "id": "DA3A0982-255A-4150-AA77-69CC22010F24",
+    "name": "Able",
+    "thumbnail": "https://google.de",
+    "url": "https://google.de",
+    "_comment": "Optional"
+  },
+  {
+    "id": "648C7B8E-CD0E-4E07-98FC-8730783C205D",
+    "name": "Susan ...",
+    "thumbnail": "https://google.de",
+    "url": "https://google.de",
+    "_comment": "Optional"
+  },
+
+  {
+    "id": "37A56684-9727-463B-AF6E-27301E51C6FB",
+    "name": "Blitzo",
+    "thumbnail": "https://google.de",
+    "url": "https://google.de",
+    "_comment": "Helluva Boss"
+  },
+  {
+    "id": "125A2B0D-D01B-4F98-98DB-89162F77A355",
+    "name": "Moxxie",
+    "thumbnail": "https://google.de",
+    "url": "https://google.de",
+    "_comment": "Helluva Boss"
+  },
+  {
+    "id": "077881D2-FE41-4FEB-830E-1B093525ADDD",
+    "name": "Millie",
+    "thumbnail": "https://google.de",
+    "url": "https://google.de",
+    "_comment": "Helluva Boss"
+  },
+  {
+    "id": "6AA66049-E075-40B9-9E1C-E42225B6CA73",
+    "name": "Loona",
+    "thumbnail": "https://google.de",
+    "url": "https://google.de",
+    "_comment": "Helluva Boss"
+  },
+  {
+    "id": "6FEAB731-E7FC-4160-A2DE-604A18182EBB",
+    "name": "Stolas",
+    "thumbnail": "https://google.de",
+    "url": "https://google.de",
+    "_comment": "Helluva Boss"
+  },
+  {
+    "id": "82A514F7-E2E8-4618-9867-39B44EC869C9",
+    "name": "Octavia",
+    "thumbnail": "https://google.de",
+    "url": "https://google.de",
+    "_comment": "Helluva Boss"
+  },
+  {
+    "id": "47160FA1-7587-43BA-8281-06A3363182F1",
+    "name": "Stella",
+    "thumbnail": "https://google.de",
+    "url": "https://google.de",
+    "_comment": "Helluva Boss"
+  },
+  {
+    "id": "E7EFA938-42CB-4547-A87F-DFB3A7DCC2CC",
+    "name": "Fizzarolli",
+    "thumbnail": "https://google.de",
+    "url": "https://google.de",
+    "_comment": "Helluva Boss"
+  },
+  {
+    "id": "C6AF2453-F847-4DE9-8463-D1EB64CB6DD5",
+    "name": "Asmodeus",
+    "thumbnail": "https://google.de",
+    "url": "https://google.de",
+    "_comment": "Helluva Boss"
+  },
+  {
+    "id": "62F96B12-6BBF-4E73-A6B5-6B1E24E12F87",
+    "name": "Beelzebub",
+    "thumbnail": "https://google.de",
+    "url": "https://google.de",
+    "_comment": "Helluva Boss"
+  },
+  {
+    "id": "10C1A085-9B51-4D19-9920-CB7527B6F0F0",
+    "name": "Mammon",
+    "thumbnail": "https://google.de",
+    "url": "https://google.de",
+    "_comment": "Helluva Boss"
+  },
+  {
+    "id": "6F762042-C889-4162-9C44-DECC94D5287C",
+    "name": "Satan (+ Yogirt?)",
+    "thumbnail": "https://google.de",
+    "url": "https://google.de",
+    "_comment": "Helluva Boss"
+  },
+  {
+    "id": "F16DD760-C622-4FEA-9946-B54E2AFCC8D6",
+    "name": "Belphagor",
+    "thumbnail": "https://google.de",
+    "url": "https://google.de",
+    "_comment": "Helluva Boss"
+  },
+  {
+    "id": "72F7E56B-7E59-4F1D-82AE-941DE1AE110D",
+    "name": "Leviathan",
+    "thumbnail": "https://google.de",
+    "url": "https://google.de",
+    "_comment": "Helluva Boss"
+  },
+  {
+    "id": "27FE5864-31CE-4380-90F2-5BAB50CE56C1",
+    "name": "Vassago",
+    "thumbnail": "https://google.de",
+    "url": "https://google.de",
+    "_comment": "Helluva Boss"
+  },
+  {
+    "id": "6A100C60-0C42-4FA0-B446-4F068ED71A82",
+    "name": "Verosika",
+    "thumbnail": "https://google.de",
+    "url": "https://google.de",
+    "_comment": "Helluva Boss"
+  },
+  {
+    "id": "B28C65FF-055F-4A6B-834D-A43820FBB69F",
+    "name": "Striker",
+    "thumbnail": "https://google.de",
+    "url": "https://google.de",
+    "_comment": "Helluva Boss"
+  },
+  {
+    "id": "C34CFBEA-0C44-4559-B44A-E295B5F1B32C",
+    "name": "Paimon",
+    "thumbnail": "https://google.de",
+    "url": "https://google.de",
+    "_comment": "Helluva Boss"
+  },
+  {
+    "id": "660B10F8-42E8-41E2-9CFC-5B70080E38DA",
+    "name": "Andrealphus",
+    "thumbnail": "https://google.de",
+    "url": "https://google.de",
+    "_comment": "Helluva Boss"
+  },
+  {
+    "id": "D0337136-8C84-4402-8647-5A3AE2937C77",
+    "name": "Vortex",
+    "thumbnail": "https://google.de",
+    "url": "https://google.de",
+    "_comment": "Helluva Boss"
+  }
+]

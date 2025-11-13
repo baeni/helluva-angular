@@ -1,0 +1,5 @@
+<div class="grid grid-cols-4 gap-2">
+  @for (sticker of stickers(); track sticker.id) {
+  <sticker-card [sticker]="sticker"></sticker-card>
+  }
+</div>

@@ -1,0 +1,32 @@
+@let _standee = standee();
+<a
+  class="group card-link w-full h-76 flex flex-col gap-2 p-3 rounded-xl bg-(--color-secondary) hover:scale-[102%] transition-transform"
+  [href]="_standee.url"
+  target="_blank"
+>
+  <div class="w-full aspect-square">
+    <img
+      class="rounded-md overflow-hidden"
+      [src]="`https://i.pravatar.cc/250?u=${_standee.id}`"
+    />
+  </div>
+
+  <div class="flex flex-col justify-end h-full">
+    <span class="text-2xl font-semibold line-clamp-1 text-(--color-primary)">
+      {{ _standee.name }}
+    </span>
+
+    <div class="flex justify-between items-center">
+      <a
+        class="text-sm font-medium line-clamp-1 text-(--color-primary)/75"
+        [href]="`artists/${_standee.artistId}`"
+        target="_top"
+        >By Roxa</a
+      >
+
+      <i
+        class="mgc_shopping_bag_2_line group-hover:mgc_external_link_line text-2xl text-(--color-primary)/75"
+      ></i>
+    </div>
+  </div>
+</a>
