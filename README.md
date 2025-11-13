@@ -1,5 +1,15 @@
 # HelluvaAngular
 
+HelluvaAngular is a lightweight, frontend-only Angular application designed to display structured data from static JSON files. The project focuses on simplicity, using modern Angular features and Tailwind CSS to build a clean and responsive interface.
+
+It serves as a straightforward solution for presenting predefined data without relying on a backend or complex infrastructure.
+
+Key Features:
+- ⚡ Frontend-only application (no backend required)
+- 📂 Data sourced from local JSON files
+- 🧩 Built with modern Angular (standalone components, signals, etc.)
+- 🎨 Styled using Tailwind CSS for a minimal, responsive design
+
 This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 20.3.9.
 
 ## Development server
