@@ -4,6 +4,7 @@ import {
   computed,
   inject,
   input,
+  PLATFORM_ID,
 } from '@angular/core'
 import { ArtistService } from '../../services/artist-service'
 import { ShopItem } from '../../types/common/shop-item'
@@ -11,6 +12,7 @@ import { toObservable, toSignal } from '@angular/core/rxjs-interop'
 import { switchMap } from 'rxjs'
 import { AnimationOptions, LottieComponent } from 'ngx-lottie'
 import { AnimationItem } from 'lottie-web'
+import { isPlatformBrowser } from '@angular/common'
 
 @Component({
   selector: 'shop-item-card',
@@ -20,6 +22,7 @@ import { AnimationItem } from 'lottie-web'
 })
 export class ShopItemCard {
   private readonly _artistService: ArtistService = inject(ArtistService)
+  private readonly _platformId = inject(PLATFORM_ID)
 
   readonly shopItem = input.required<ShopItem>()
 
@@ -30,8 +33,11 @@ export class ShopItemCard {
   )
 
   private readonly artist = toSignal(this._artist$, { initialValue: null })
-
   protected readonly artistName = computed(() => this.artist()?.name)
+
+  protected readonly isMobile =
+    isPlatformBrowser(this._platformId) &&
+    matchMedia('(pointer: coarse)').matches
 
   protected lottieBagOptions: AnimationOptions = {
     path: '/lottie/bag.json',
@@ -42,10 +48,16 @@ export class ShopItemCard {
 
   protected onCreated(animationItem: AnimationItem) {
     this.lottieBagItem = animationItem
+
+    if (this.isMobile) {
+      // Jump immediately to last frame (static)
+      const half = animationItem.getDuration(true) / 2
+      animationItem.goToAndStop(half, true)
+    }
   }
 
   protected playForward() {
-    if (!this.lottieBagItem) return
+    if (!this.lottieBagItem || this.isMobile) return
 
     this.lottieBagItem.resetSegments(true)
 
@@ -56,7 +68,7 @@ export class ShopItemCard {
   }
 
   protected playReverse() {
-    if (!this.lottieBagItem) return
+    if (!this.lottieBagItem || this.isMobile) return
 
     this.lottieBagItem.setSpeed(-1.75)
     this.lottieBagItem.play()
