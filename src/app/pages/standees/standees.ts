@@ -1,11 +1,11 @@
 import { ChangeDetectionStrategy, Component, inject } from '@angular/core'
 import { StandeeService } from '../../shared/services/standee-service'
+import { ShopItemCard } from '../../shared/components/shop-item-card/shop-item-card'
 import { toSignal } from '@angular/core/rxjs-interop'
-import { StandeeCard } from './components/standee-card/standee-card'
 
 @Component({
   selector: 'standees',
-  imports: [StandeeCard],
+  imports: [ShopItemCard],
   templateUrl: './standees.html',
   changeDetection: ChangeDetectionStrategy.OnPush,
 })

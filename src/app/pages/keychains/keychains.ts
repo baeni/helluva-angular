@@ -1,11 +1,11 @@
 import { ChangeDetectionStrategy, Component, inject } from '@angular/core'
-import { toSignal } from '@angular/core/rxjs-interop'
 import { KeychainService } from '../../shared/services/keychain-service'
-import { KeychainCard } from './components/keychain-card/keychain-card'
+import { ShopItemCard } from '../../shared/components/shop-item-card/shop-item-card'
+import { toSignal } from '@angular/core/rxjs-interop'
 
 @Component({
   selector: 'keychains',
-  imports: [KeychainCard],
+  imports: [ShopItemCard],
   templateUrl: './keychains.html',
   changeDetection: ChangeDetectionStrategy.OnPush,
 })

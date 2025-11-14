@@ -1,5 +1,7 @@
-<div class="grid grid-cols-4 gap-2">
+<div
+  class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-2"
+>
   @for (standee of standees(); track standee.id) {
-  <standee-card [standee]="standee"></standee-card>
+  <shop-item-card [shopItem]="standee"></shop-item-card>
   }
 </div>

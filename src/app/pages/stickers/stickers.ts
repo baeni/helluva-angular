@@ -1,11 +1,11 @@
 import { ChangeDetectionStrategy, Component, inject } from '@angular/core'
 import { StickerService } from '../../shared/services/sticker-service'
+import { ShopItemCard } from '../../shared/components/shop-item-card/shop-item-card'
 import { toSignal } from '@angular/core/rxjs-interop'
-import { StickerCard } from './components/sticker-card/sticker-card'
 
 @Component({
   selector: 'stickers',
-  imports: [StickerCard],
+  imports: [ShopItemCard],
   templateUrl: './stickers.html',
   changeDetection: ChangeDetectionStrategy.OnPush,
 })
