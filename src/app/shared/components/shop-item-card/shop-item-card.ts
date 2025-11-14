@@ -52,7 +52,9 @@ export class ShopItemCard {
     if (this.isMobile) {
       // Jump immediately to last frame (static)
       const half = animationItem.getDuration(true) / 2
-      animationItem.goToAndStop(half, true)
+
+      this.lottieBagItem.setSpeed(1.75)
+      animationItem.playSegments([0, half], true)
     }
   }
 
