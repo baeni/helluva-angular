@@ -4,9 +4,8 @@ import { Artists } from './pages/artists/artists'
 import { Stickers } from './pages/stickers/stickers'
 import { Keychains } from './pages/keychains/keychains'
 import { DefaultLayout } from './shared/layouts/default-layout/default-layout'
-import { ArtistDetails } from './pages/artist-details/artist-details'
 
-const appTitle: string = 'Helluva Snowball Fight'
+const appTitle: string = 'HellACollab Snowball-Fight Fan Merch'
 
 export const routes: Routes = [
   {
@@ -31,11 +30,6 @@ export const routes: Routes = [
       {
         path: 'artists',
         component: Artists,
-        title: `Artists — ${appTitle}`,
-      },
-      {
-        path: 'artists/:id',
-        component: ArtistDetails,
         title: `Artists — ${appTitle}`,
       },
 

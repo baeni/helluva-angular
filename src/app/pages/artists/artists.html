@@ -1,4 +1,6 @@
-<div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-2">
+<div
+  class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-2"
+>
   @for (artist of artists(); track artist.id) {
   <artist-card [artist]="artist"></artist-card>
   }

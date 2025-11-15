@@ -1,7 +1,0 @@
-@let _artist = artist();
-
-{{ _artist?.name ?? 'Not found' }}
-
-@if (_artist) {
-<artist-card [artist]="_artist"></artist-card>
-}

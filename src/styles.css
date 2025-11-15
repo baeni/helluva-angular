@@ -19,6 +19,8 @@
   --color-primary: #03345e;
   --color-secondary: #5486b4;
   --color-tertiary: #d1d9e4;
+
+  --content-padding: 0.75rem;
 }
 
 body {

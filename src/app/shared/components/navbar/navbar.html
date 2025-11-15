@@ -1,6 +1,6 @@
-<div class="flex justify-between items-center h-18">
-  <h1 class="ml-2 text-lg text-(--color-tertiary) font-black">
-    Helluva Snowball Fight
+<div class="flex justify-between items-center h-18 mx-4 md:mx-0">
+  <h1 class="text-lg text-(--color-tertiary) font-black">
+    HellACollab Snowball-Fight Fan Merch
   </h1>
 
   <div class="hidden md:flex gap-4 items-center">
@@ -19,4 +19,35 @@
     </a>
     }
   </div>
+
+  <button
+    class="md:hidden relative w-10 aspect-square z-50!"
+    (click)="toggleOverlay()"
+  >
+    <ng-lottie
+      class="scale-200"
+      [options]="lottieBurgerOptions"
+      (animationCreated)="onCreated($event)"
+    ></ng-lottie>
+  </button>
 </div>
+
+@if (isOverlayOpen()) {
+<div
+  class="absolute inset-0 w-screen h-screen flex justify-center items-center bg-(--color-primary)"
+>
+  <div class="w-[50vw] flex flex-col gap-4">
+    @for (item of items; track item.route) {
+    <a
+      class="relative text-2xl text-(--color-tertiary)! font-medium [.router-link-active]:scale-128 origin-left"
+      routerLinkActive="router-link-active"
+      [routerLinkActiveOptions]="{ exact: false }"
+      [routerLink]="item.route"
+      (click)="toggleOverlay()"
+    >
+      {{ item.label }}
+    </a>
+    }
+  </div>
+</div>
+}
