@@ -35,13 +35,18 @@
       >
         Unknown artist
       </span>
-      }
-
+      } @if (!isMobile) {
       <ng-lottie
         class="absolute right-0 bottom-0 w-10 aspect-square"
         [options]="lottieBagOptions"
         (animationCreated)="onCreated($event)"
       ></ng-lottie>
+      } @else {
+      <img
+        class="absolute right-0 bottom-0 w-10 aspect-square"
+        src="/lottie/bag.png"
+      />
+      }
     </div>
   </div>
 </a>

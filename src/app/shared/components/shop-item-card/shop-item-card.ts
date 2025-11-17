@@ -48,14 +48,6 @@ export class ShopItemCard {
 
   protected onCreated(animationItem: AnimationItem) {
     this.lottieBagItem = animationItem
-
-    if (this.isMobile) {
-      // Jump immediately to last frame (static)
-      const half = animationItem.getDuration(true) / 2
-
-      this.lottieBagItem.setSpeed(1.75)
-      animationItem.playSegments([0, half], true)
-    }
   }
 
   protected playForward() {
