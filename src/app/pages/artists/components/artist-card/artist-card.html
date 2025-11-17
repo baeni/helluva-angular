@@ -1,55 +1,47 @@
 @let _artist = artist();
 <div
   [id]="_artist.id"
-  class="group relative w-full flex flex-col p-3 rounded-xl bg-(--color-secondary) hover:bg-(--color-tertiary) transition-colors duration-500"
+  class="group w-full flex gap-2 p-3 rounded-xl bg-(--color-secondary)"
 >
-  @if (!isMobile) {
-  <div class="w-full aspect-square">
-    <div
-      class="top-3 left-3 w-full group-hover:w-36! aspect-square overflow-hidden bg-(--color-secondary) rounded-sm group-hover:rounded-md transition-all duration-500"
-    >
-      <img
-        class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
-        [src]="_artist.thumbnail"
-      />
-    </div>
-
-    <span class="absolute pt-2 text-2xl font-semibold line-clamp-1 text-black">
-      {{ _artist.name }}
-    </span>
-  </div>
-
   <div
-    class="flex items-center gap-2 h-full -translate-y-0.5 group-hover:translate-0 opacity-0 group-hover:opacity-100 transition-all duration-500"
+    class="w-18 aspect-square flex-none flex justify-center items-center overflow-hidden bg-(--color-tertiary) rounded-md"
   >
-    <a [href]="_artist.url" target="_blank">ACGgoods</a>
-
-    @for (otherUrl of _artist.otherUrls; track otherUrl.url) {
-    <a [href]="otherUrl.url" target="_blank">{{ otherUrl.label }}</a>
+    @if (_artist.thumbnail) {
+    <img
+      class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
+      [src]="_artist.thumbnail"
+    />
+    } @else {
+    <span class="text-xl font-bold">{{ _artist.name.charAt(0) }}</span>
     }
   </div>
-  } @else {
-  <div class="w-full aspect-square">
-    <div
-      class="top-3 left-3 w-36! aspect-square overflow-hidden bg-(--color-secondary) rounded-md"
-    >
-      <img
-        class="w-full h-full object-cover scale-105"
-        [src]="_artist.thumbnail"
-      />
-    </div>
 
-    <span class="absolute pt-2 text-2xl font-semibold line-clamp-1 text-black">
+  <div class="flex flex-col gap-2 justify-start items-start min-w-0 flex-1">
+    <span class="w-full text-xl font-semibold line-clamp-1 truncate text-black">
       {{ _artist.name }}
     </span>
-  </div>
 
-  <div class="flex items-center gap-2 h-full">
-    <a [href]="_artist.url" target="_blank">ACGgoods</a>
+    <div class="flex items-center gap-2 w-full">
+      <a [href]="_artist.url" target="_blank">
+        <div
+          class="w-5 aspec-square overflow-hidden flex items-center justify-center"
+        >
+          <img
+            class="w-full h-full object-cover scale-175 -translate-y-px"
+            src="/lottie/bag.png"
+          />
+        </div>
+      </a>
 
-    @for (otherUrl of _artist.otherUrls; track otherUrl.url) {
-    <a [href]="otherUrl.url" target="_blank">{{ otherUrl.label }}</a>
-    }
+      @for (otherUrl of _artist.otherUrls; track otherUrl.url) {
+      <a
+        class="flex items-center justify-center"
+        [href]="otherUrl.url"
+        target="_blank"
+      >
+        <i [class]="`text-xl text-(--color-primary) ${otherUrl.icon}`"></i>
+      </a>
+      }
+    </div>
   </div>
-  }
 </div>

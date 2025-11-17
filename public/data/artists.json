@@ -7,7 +7,8 @@
     "otherUrls": [
       {
         "label": "Bluesky",
-        "url": "https://bsky.app/profile/roxaishere.bsky.social"
+        "url": "https://bsky.app/profile/roxaishere.bsky.social",
+        "icon": "mgc_bluesky_social_line"
       }
     ]
   },
@@ -19,7 +20,8 @@
     "otherUrls": [
       {
         "label": "X",
-        "url": "https://x.com/autismanalysis/status/1985921563934556663?s=20"
+        "url": "https://x.com/autismanalysis/status/1985921563934556663?s=20",
+        "icon": "mgc_social_x_line"
       }
     ]
   },
@@ -31,7 +33,8 @@
     "otherUrls": [
       {
         "label": "Bluesky",
-        "url": "https://bsky.app/profile/tatilove12.bsky.social"
+        "url": "https://bsky.app/profile/tatilove12.bsky.social",
+        "icon": "mgc_bluesky_social_line"
       }
     ]
   },
@@ -43,11 +46,13 @@
     "otherUrls": [
       {
         "label": "Bluesky",
-        "url": "https://bsky.app/profile/rainehill.bsky.social"
+        "url": "https://bsky.app/profile/rainehill.bsky.social",
+        "icon": "mgc_bluesky_social_line"
       },
       {
         "label": "Other",
-        "url": "https://raine-hill.carrd.co/"
+        "url": "https://raine-hill.carrd.co/",
+        "icon": "mgc_instagram_line"
       }
     ]
   },
@@ -59,7 +64,8 @@
     "otherUrls": [
       {
         "label": "Instagram",
-        "url": "https://www.instagram.com/starry.skyes.art/"
+        "url": "https://www.instagram.com/starry.skyes.art/",
+        "icon": "mgc_instagram_line"
       }
     ]
   },
@@ -71,7 +77,8 @@
     "otherUrls": [
       {
         "label": "X",
-        "url": "https://x.com/PauStark"
+        "url": "https://x.com/PauStark",
+        "icon": "mgc_social_x_line"
       }
     ]
   },
@@ -83,11 +90,13 @@
     "otherUrls": [
       {
         "label": "Instagram",
-        "url": "https://www.instagram.com/tsukkisol/"
+        "url": "https://www.instagram.com/tsukkisol/",
+        "icon": "mgc_instagram_line"
       },
       {
         "label": "Other",
-        "url": "https://tsukkisol.carrd.co/"
+        "url": "https://tsukkisol.carrd.co/",
+        "icon": "mgc_earth_2_line"
       }
     ]
   },
@@ -99,7 +108,8 @@
     "otherUrls": [
       {
         "label": "X",
-        "url": "https://x.com/primetimecupid"
+        "url": "https://x.com/primetimecupid",
+        "icon": "mgc_social_x_line"
       }
     ]
   },
@@ -111,11 +121,13 @@
     "otherUrls": [
       {
         "label": "Instagram",
-        "url": "https://www.instagram.com/sha1yu/"
+        "url": "https://www.instagram.com/sha1yu/",
+        "icon": "mgc_instagram_line"
       },
       {
         "label": "Linktree",
-        "url": "https://linktr.ee/sha1yu"
+        "url": "https://linktr.ee/sha1yu",
+        "icon": "mgc_earth_2_line"
       }
     ]
   },
@@ -127,11 +139,13 @@
     "otherUrls": [
       {
         "label": "Bluesky",
-        "url": "https://bsky.app/profile/honkforquacks.bsky.social"
+        "url": "https://bsky.app/profile/honkforquacks.bsky.social",
+        "icon": "mgc_bluesky_social_line"
       },
       {
         "label": "Facebook",
-        "url": "https://facebook.com"
+        "url": "https://facebook.com",
+        "icon": "mgc_facebook_line"
       }
     ]
   },
@@ -143,11 +157,13 @@
     "otherUrls": [
       {
         "label": "Bluesky",
-        "url": "https://bsky.app/profile/bluekoinu.bsky.social"
+        "url": "https://bsky.app/profile/bluekoinu.bsky.social",
+        "icon": "mgc_bluesky_social_line"
       },
       {
         "label": "Other",
-        "url": "https://www.bluekoinu.com/"
+        "url": "https://www.bluekoinu.com/",
+        "icon": "mgc_earth_2_line"
       }
     ]
   },
@@ -159,11 +175,13 @@
     "otherUrls": [
       {
         "label": "Bluesky",
-        "url": "https://bsky.app/profile/akumalichan.bsky.social"
+        "url": "https://bsky.app/profile/akumalichan.bsky.social",
+        "icon": "mgc_bluesky_social_line"
       },
       {
         "label": "Linktree",
-        "url": "https://linktr.ee/akumalichan"
+        "url": "https://linktr.ee/akumalichan",
+        "icon": "mgc_earth_2_line"
       }
     ]
   },
@@ -174,20 +192,24 @@
     "url": "https://acggoods.com/store/mllershop",
     "otherUrls": [
       {
-        "label": "Instagra",
-        "url": "https://www.instagram.com/mllermanda/"
+        "label": "Instagram",
+        "url": "https://www.instagram.com/mllermanda/",
+        "icon": "mgc_instagram_line"
       },
       {
         "label": "X",
-        "url": "https://x.com/Mllermanda"
+        "url": "https://x.com/Mllermanda",
+        "icon": "mgc_social_x_line"
       },
       {
         "label": "Bluesky",
-        "url": "https://bsky.app/profile/mllermanda.bsky.social"
+        "url": "https://bsky.app/profile/mllermanda.bsky.social",
+        "icon": "mgc_bluesky_social_line"
       },
       {
         "label": "Linktree",
-        "url": "https://linktr.ee/mllermanda"
+        "url": "https://linktr.ee/mllermanda",
+        "icon": "mgc_earth_2_line"
       }
     ]
   },
@@ -199,11 +221,13 @@
     "otherUrls": [
       {
         "label": "X",
-        "url": "https://www.x.com/coconutbiko"
+        "url": "https://www.x.com/coconutbiko",
+        "icon": "mgc_social_x_line"
       },
       {
         "label": "Other",
-        "url": "https://coconutbiko.carrd.co/"
+        "url": "https://coconutbiko.carrd.co/",
+        "icon": "mgc_earth_2_line"
       }
     ]
   },
@@ -215,7 +239,8 @@
     "otherUrls": [
       {
         "label": "Instagram",
-        "url": "https://www.instagram.com/emositecc/"
+        "url": "https://www.instagram.com/emositecc/",
+        "icon": "mgc_instagram_line"
       }
     ]
   }

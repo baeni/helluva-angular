@@ -7,4 +7,5 @@ export interface Artist extends Item {
 export interface OtherUrl {
   label: string
   url: string
+  icon: string
 }
