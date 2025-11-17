@@ -3,9 +3,10 @@
   [id]="_artist.id"
   class="group relative w-full flex flex-col p-3 rounded-xl bg-(--color-secondary) hover:bg-(--color-tertiary) transition-colors duration-500"
 >
+  @if (!isMobile) {
   <div class="w-full aspect-square">
     <div
-      class="top-3 left-3 w-full group-hover:w-36! aspect-square overflow-hidden rounded-sm group-hover:rounded-md transition-all duration-500"
+      class="top-3 left-3 w-full group-hover:w-36! aspect-square overflow-hidden bg-(--color-secondary) rounded-sm group-hover:rounded-md transition-all duration-500"
     >
       <img
         class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
@@ -13,9 +14,7 @@
       />
     </div>
 
-    <span
-      class="absolute pt-2 text-2xl font-semibold line-clamp-1 text-black transition-all duration-500"
-    >
+    <span class="absolute pt-2 text-2xl font-semibold line-clamp-1 text-black">
       {{ _artist.name }}
     </span>
   </div>
@@ -29,4 +28,28 @@
     <a [href]="otherUrl.url" target="_blank">{{ otherUrl.label }}</a>
     }
   </div>
+  } @else {
+  <div class="w-full aspect-square">
+    <div
+      class="top-3 left-3 w-36! aspect-square overflow-hidden bg-(--color-secondary) rounded-md"
+    >
+      <img
+        class="w-full h-full object-cover scale-105"
+        [src]="_artist.thumbnail"
+      />
+    </div>
+
+    <span class="absolute pt-2 text-2xl font-semibold line-clamp-1 text-black">
+      {{ _artist.name }}
+    </span>
+  </div>
+
+  <div class="flex items-center gap-2 h-full">
+    <a [href]="_artist.url" target="_blank">ACGgoods</a>
+
+    @for (otherUrl of _artist.otherUrls; track otherUrl.url) {
+    <a [href]="otherUrl.url" target="_blank">{{ otherUrl.label }}</a>
+    }
+  </div>
+  }
 </div>
