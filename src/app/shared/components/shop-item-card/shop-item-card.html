@@ -7,7 +7,7 @@
   (mouseleave)="playReverse()"
 >
   <div
-    class="w-full aspect-square overflow-hidden rounded-sm group-hover:rounded-md group-hover:scale-105 transition-all duration-500"
+    class="w-full aspect-square overflow-hidden rounded-sm group-hover:rounded-md group-hover:scale-103 transition-all duration-500"
   >
     <img
       class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
@@ -22,13 +22,17 @@
 
     <div class="relative flex justify-between items-center">
       @let _artistName = artistName(); @if (_artistName) {
-      <a
-        class="text-sm font-medium line-clamp-1 text-(--color-primary) opacity-80 hover:opacity-100 transition-opacity"
-        [href]="`/artists#${_shopItem.artistId}`"
-        target="_top"
-      >
-        @{{ _artistName }}
-      </a>
+      <tooltip text="Artist" position="bottom">
+        <a
+          class="text-sm font-medium line-clamp-1 text-(--color-primary) opacity-80 hover:opacity-100 transition-opacity"
+          routerLink="/artists"
+          [fragment]="_shopItem.artistId"
+          target="_top"
+        >
+          @{{ _artistName }}
+        </a>
+      </tooltip>
+
       } @else {
       <span
         class="text-sm font-medium line-clamp-1 text-(--color-primary) opacity-80"

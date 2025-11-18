@@ -6,6 +6,7 @@ import {
   input,
   PLATFORM_ID,
 } from '@angular/core'
+import { RouterModule } from '@angular/router'
 import { ArtistService } from '../../services/artist-service'
 import { ShopItem } from '../../types/common/shop-item'
 import { toObservable, toSignal } from '@angular/core/rxjs-interop'
@@ -13,10 +14,11 @@ import { switchMap } from 'rxjs'
 import { AnimationOptions, LottieComponent } from 'ngx-lottie'
 import { AnimationItem } from 'lottie-web'
 import { isPlatformBrowser } from '@angular/common'
+import { Tooltip } from '../tooltip/tooltip'
 
 @Component({
   selector: 'shop-item-card',
-  imports: [LottieComponent],
+  imports: [RouterModule, LottieComponent, Tooltip],
   templateUrl: './shop-item-card.html',
   changeDetection: ChangeDetectionStrategy.OnPush,
 })

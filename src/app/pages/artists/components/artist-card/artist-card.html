@@ -1,6 +1,59 @@
 @let _artist = artist();
 <div
   [id]="_artist.id"
+  class="group w-full flex flex-col justify-center items-center gap-4 p-3 rounded-xl bg-(--color-secondary)"
+>
+  <div
+    class="w-24 aspect-square flex-none flex justify-center items-center overflow-hidden bg-(--color-tertiary) rounded-full"
+  >
+    @if (_artist.thumbnail) {
+    <img
+      class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
+      [src]="_artist.thumbnail"
+    />
+    } @else {
+    <span class="text-xl font-bold">{{ _artist.name.charAt(0) }}</span>
+    }
+  </div>
+
+  <span class="text-xl font-semibold line-clamp-1 truncate text-black">
+    {{ _artist.name }}
+  </span>
+
+  <div class="flex items-center gap-2">
+    <tooltip text="ACGgoods" position="bottom">
+      <a [href]="_artist.url" target="_blank">
+        <div
+          class="w-5 aspec-square overflow-hidden flex items-center justify-center"
+        >
+          <img
+            class="w-full h-full object-cover scale-175 -translate-y-px"
+            src="/lottie/bag.png"
+          />
+        </div>
+      </a>
+    </tooltip>
+
+    @for (otherUrl of _artist.otherUrls; track otherUrl.url) {
+    <tooltip [text]="otherUrl.label" position="bottom">
+      <a
+        class="flex items-center justify-center"
+        [href]="otherUrl.url"
+        target="_blank"
+        ngxTooltip="Tooltip text"
+        placement="top-start"
+        arrow
+      >
+        <i [class]="`text-xl text-(--color-primary) ${otherUrl.icon}`"></i>
+      </a>
+    </tooltip>
+    }
+  </div>
+</div>
+
+<!-- @let _artist = artist();
+<div
+  [id]="_artist.id"
   class="group w-full flex gap-2 p-3 rounded-xl bg-(--color-secondary)"
 >
   <div
@@ -16,7 +69,7 @@
     }
   </div>
 
-  <div class="flex flex-col gap-2 justify-start items-start min-w-0 flex-1">
+  <div class="flex flex-col gap-4 justify-start items-start min-w-0 flex-1">
     <span class="w-full text-xl font-semibold line-clamp-1 truncate text-black">
       {{ _artist.name }}
     </span>
@@ -44,4 +97,4 @@
       }
     </div>
   </div>
-</div>
+</div> -->

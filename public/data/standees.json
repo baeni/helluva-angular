@@ -11,6 +11,7 @@
     "id": "A331BB7A-D890-4597-AF31-1E32BD19FF01",
     "name": "Vaggie",
     "thumbnail": "https://google.de",
+    "artistId": "C04FF736-E798-4946-8D60-55DB7D243B30",
     "url": "https://google.de",
     "_comment": "Required"
   },
@@ -18,6 +19,7 @@
     "id": "7B3212E4-8CC4-4FAA-943D-A96A47E94A8E",
     "name": "Alastor",
     "thumbnail": "https://google.de",
+    "artistId": "49736F4F-AD9A-488C-8381-16444B86FA24",
     "url": "https://google.de",
     "_comment": "Required"
   },
@@ -25,6 +27,7 @@
     "id": "69FA7943-75E0-4460-BBF3-7580A1A5314D",
     "name": "Lucifer",
     "thumbnail": "https://google.de",
+    "artistId": "49736F4F-AD9A-488C-8381-16444B86FA24",
     "url": "https://google.de",
     "_comment": "Required"
   },
@@ -32,6 +35,7 @@
     "id": "D1C1DE04-43CB-4944-B9AB-A7543A241F8A",
     "name": "Angel Dust",
     "thumbnail": "https://google.de",
+    "artistId": "08A139EC-B84C-44DD-8805-DA0758683C5F",
     "url": "https://google.de",
     "_comment": "Required"
   },
@@ -39,6 +43,7 @@
     "id": "0F617829-B0D0-4827-BF0F-50B273306F95",
     "name": "Husk",
     "thumbnail": "https://google.de",
+    "artistId": "08A139EC-B84C-44DD-8805-DA0758683C5F",
     "url": "https://google.de",
     "_comment": "Required"
   },
@@ -46,6 +51,7 @@
     "id": "6AEECD9E-C373-41EB-9852-6C614EA57C16",
     "name": "Niffty",
     "thumbnail": "https://google.de",
+    "artistId": "9BBDC417-F5A4-4497-B883-F490A5F86CC3",
     "url": "https://google.de",
     "_comment": "Required"
   },
@@ -53,6 +59,7 @@
     "id": "10D3CACD-98D3-4441-93D5-43F8A3C466F1",
     "name": "Baxter",
     "thumbnail": "https://google.de",
+    "artistId": "C04FF736-E798-4946-8D60-55DB7D243B30",
     "url": "https://google.de",
     "_comment": "Required"
   },
@@ -60,6 +67,7 @@
     "id": "1F89F3F9-8FD5-485E-A039-26AB4DA39982",
     "name": "Cherrie",
     "thumbnail": "https://google.de",
+    "artistId": "C04FF736-E798-4946-8D60-55DB7D243B30",
     "url": "https://google.de",
     "_comment": "Required"
   },
@@ -67,6 +75,7 @@
     "id": "D9100D8E-8DF6-412F-B9C7-4C840C3E4D69",
     "name": "Sir Pentious (Egg bois?)",
     "thumbnail": "https://google.de",
+    "artistId": "9BBDC417-F5A4-4497-B883-F490A5F86CC3",
     "url": "https://google.de",
     "_comment": "Required"
   },
@@ -74,6 +83,7 @@
     "id": "6234EA9D-DD2F-4A62-B388-2169429D6396",
     "name": "Vox",
     "thumbnail": "https://google.de",
+    "artistId": "5109B599-24D3-4456-B9B4-5B1F93C5B87B",
     "url": "https://google.de",
     "_comment": "Required"
   },
@@ -81,6 +91,7 @@
     "id": "4AD0B8B0-DE01-4CD6-8841-CC95EFEE59B0",
     "name": "Valentino",
     "thumbnail": "https://google.de",
+    "artistId": "5109B599-24D3-4456-B9B4-5B1F93C5B87B",
     "url": "https://google.de",
     "_comment": "Required"
   },
@@ -88,6 +99,7 @@
     "id": "E8402FE3-AD3F-4D68-B45D-94173D1E4893",
     "name": "Velvette",
     "thumbnail": "https://google.de",
+    "artistId": "31F53318-0130-4954-A8B6-235B55031F83",
     "url": "https://google.de",
     "_comment": "Required"
   },
@@ -96,6 +108,7 @@
     "id": "6AA653CE-AE3F-4164-903B-85834FAF5EB8",
     "name": "Rosie",
     "thumbnail": "https://google.de",
+    "artistId": "44602D97-2DA9-4C8C-B8F6-AD56E26B7601",
     "url": "https://google.de",
     "_comment": "Optional"
   },
@@ -110,6 +123,7 @@
     "id": "4A636FD6-0CB3-413B-A577-A3534347D1BC",
     "name": "Carmilla",
     "thumbnail": "https://google.de",
+    "artistId": "CC910DE8-E804-44DF-BD29-71933D73E411",
     "url": "https://google.de",
     "_comment": "Optional"
   },
@@ -124,6 +138,7 @@
     "id": "936C2D5C-7F2F-463C-853E-469AD9AD4793",
     "name": "Zestial",
     "thumbnail": "https://google.de",
+    "artistId": "9BBDC417-F5A4-4497-B883-F490A5F86CC3",
     "url": "https://google.de",
     "_comment": "Optional"
   },
@@ -131,6 +146,7 @@
     "id": "0C7D62C9-4EF6-4C46-9B6E-49A3E8EA85FC",
     "name": "Lilith",
     "thumbnail": "https://google.de",
+    "artistId": "44602D97-2DA9-4C8C-B8F6-AD56E26B7601",
     "url": "https://google.de",
     "_comment": "Optional"
   },
@@ -138,6 +154,7 @@
     "id": "2888C3B0-DFE5-415B-969F-90450EE5241B",
     "name": "Katie Killjoy + Tom Trench",
     "thumbnail": "https://google.de",
+    "artistId": "31F53318-0130-4954-A8B6-235B55031F83",
     "url": "https://google.de",
     "_comment": "Optional"
   },
@@ -145,6 +162,7 @@
     "id": "8C154F7A-25DA-40F2-A022-0590E22BD7F2",
     "name": "Razzle/Dazzle",
     "thumbnail": "https://google.de",
+    "artistId": "DFCABAC3-5632-4D68-9E48-B417B6FACB17",
     "url": "https://google.de",
     "_comment": "Optional"
   },
@@ -152,6 +170,7 @@
     "id": "0C207EB3-CFE3-427C-8D12-8717CD9AEE6D",
     "name": "Fat Nuggets + Keekee",
     "thumbnail": "https://google.de",
+    "artistId": "C04FF736-E798-4946-8D60-55DB7D243B30",
     "url": "https://google.de",
     "_comment": "Optional"
   },
@@ -159,6 +178,7 @@
     "id": "269F3701-12D6-4E02-BC6D-FA5701A12CC9",
     "name": "Alastor's shadow",
     "thumbnail": "https://google.de",
+    "artistId": "7DA69067-C63D-45A0-BCE9-144C70EA9861",
     "url": "https://google.de",
     "_comment": "Optional"
   },
@@ -166,6 +186,7 @@
     "id": "3FEB1B92-EAF1-4F28-83EC-F3DB84F262F6",
     "name": "Lute (+ Adam?)",
     "thumbnail": "https://google.de",
+    "artistId": "08A139EC-B84C-44DD-8805-DA0758683C5F",
     "url": "https://google.de",
     "_comment": "Optional"
   },
@@ -173,6 +194,7 @@
     "id": "54D0C45B-DFFA-4DF6-A0DB-6E3E708F8199",
     "name": "Sera",
     "thumbnail": "https://google.de",
+    "artistId": "CC910DE8-E804-44DF-BD29-71933D73E411",
     "url": "https://google.de",
     "_comment": "Optional"
   },
@@ -180,6 +202,7 @@
     "id": "A1BD7F84-E0BD-470B-9068-2BF34E288AFE",
     "name": "Emily",
     "thumbnail": "https://google.de",
+    "artistId": "705CC53B-DCBD-4EEB-9E18-58893F656688",
     "url": "https://google.de",
     "_comment": "Optional"
   },
@@ -187,6 +210,7 @@
     "id": "00DC4F42-D83F-4E50-906A-BAFD11537B09",
     "name": "The Godspeaker",
     "thumbnail": "https://google.de",
+    "artistId": "705CC53B-DCBD-4EEB-9E18-58893F656688",
     "url": "https://google.de",
     "_comment": "Optional"
   },
@@ -194,6 +218,7 @@
     "id": "82E045A8-E692-4244-8289-ADBA1D55608A",
     "name": "St.Peter",
     "thumbnail": "https://google.de",
+    "artistId": "49736F4F-AD9A-488C-8381-16444B86FA24",
     "url": "https://google.de",
     "_comment": "Optional"
   },
@@ -201,6 +226,7 @@
     "id": "AA245433-75DC-488D-B236-25CCF240A88F",
     "name": "Able",
     "thumbnail": "https://google.de",
+    "artistId": "C04FF736-E798-4946-8D60-55DB7D243B30",
     "url": "https://google.de",
     "_comment": "Optional"
   },
@@ -208,6 +234,7 @@
     "id": "5E061F45-3B47-4BC5-A10D-5726B45E7A6A",
     "name": "Susan ...",
     "thumbnail": "https://google.de",
+    "artistId": "49736F4F-AD9A-488C-8381-16444B86FA24",
     "url": "https://google.de",
     "_comment": "Optional"
   },
@@ -216,6 +243,7 @@
     "id": "145BC929-E319-4D98-A4ED-E0A0E8DB7C3E",
     "name": "Blitzo",
     "thumbnail": "https://google.de",
+    "artistId": "705CC53B-DCBD-4EEB-9E18-58893F656688",
     "url": "https://google.de",
     "_comment": "Helluva Boss"
   },
@@ -223,6 +251,7 @@
     "id": "C05EA9AA-0F1D-458E-9559-DF1CD583694E",
     "name": "Moxxie",
     "thumbnail": "https://google.de",
+    "artistId": "9981AA10-DC97-4F73-BEAB-852D92A47770",
     "url": "https://google.de",
     "_comment": "Helluva Boss"
   },
@@ -230,6 +259,7 @@
     "id": "296ED6CA-B23E-4405-9549-96DE9DDA2E79",
     "name": "Millie",
     "thumbnail": "https://google.de",
+    "artistId": "9981AA10-DC97-4F73-BEAB-852D92A47770",
     "url": "https://google.de",
     "_comment": "Helluva Boss"
   },
@@ -237,6 +267,7 @@
     "id": "52A40B1F-7BBC-48A6-A4CB-7D0032FF02C0",
     "name": "Loona",
     "thumbnail": "https://google.de",
+    "artistId": "CC910DE8-E804-44DF-BD29-71933D73E411",
     "url": "https://google.de",
     "_comment": "Helluva Boss"
   },
@@ -244,6 +275,7 @@
     "id": "55951645-B1F6-4E0A-AF03-6377DD166E3F",
     "name": "Stolas",
     "thumbnail": "https://google.de",
+    "artistId": "705CC53B-DCBD-4EEB-9E18-58893F656688",
     "url": "https://google.de",
     "_comment": "Helluva Boss"
   },
@@ -251,6 +283,7 @@
     "id": "A0FDD9F3-EA28-4749-9510-6DE51585E2E4",
     "name": "Octavia",
     "thumbnail": "https://google.de",
+    "artistId": "CC910DE8-E804-44DF-BD29-71933D73E411",
     "url": "https://google.de",
     "_comment": "Helluva Boss"
   },
@@ -258,6 +291,7 @@
     "id": "34AE7ED8-D144-46D4-8473-3A8C5A626FBB",
     "name": "Stella",
     "thumbnail": "https://google.de",
+    "artistId": "23752C1A-2287-42EE-B960-974E69AB8D6D",
     "url": "https://google.de",
     "_comment": "Helluva Boss"
   },
@@ -265,6 +299,7 @@
     "id": "19748358-838B-475F-99A5-305D1035F57D",
     "name": "Fizzarolli",
     "thumbnail": "https://google.de",
+    "artistId": "DCCF4082-65FC-437E-87BF-0CF23243DE24",
     "url": "https://google.de",
     "_comment": "Helluva Boss"
   },
@@ -272,6 +307,7 @@
     "id": "83025DF5-DE99-4439-9C50-D11A702F6E83",
     "name": "Asmodeus",
     "thumbnail": "https://google.de",
+    "artistId": "DCCF4082-65FC-437E-87BF-0CF23243DE24",
     "url": "https://google.de",
     "_comment": "Helluva Boss"
   },
@@ -279,6 +315,7 @@
     "id": "7C0E771B-F02A-4BFA-9F09-BF898D58C4ED",
     "name": "Beelzebub",
     "thumbnail": "https://google.de",
+    "artistId": "CC910DE8-E804-44DF-BD29-71933D73E411",
     "url": "https://google.de",
     "_comment": "Helluva Boss"
   },
@@ -286,6 +323,7 @@
     "id": "90C58463-C8AB-4CA8-B99D-B560651FF1B4",
     "name": "Mammon",
     "thumbnail": "https://google.de",
+    "artistId": "31F53318-0130-4954-A8B6-235B55031F83",
     "url": "https://google.de",
     "_comment": "Helluva Boss"
   },
@@ -293,6 +331,7 @@
     "id": "264A5473-4DBF-4431-AE69-8839E1BC6995",
     "name": "Satan (+ Yogirt?)",
     "thumbnail": "https://google.de",
+    "artistId": "49736F4F-AD9A-488C-8381-16444B86FA24",
     "url": "https://google.de",
     "_comment": "Helluva Boss"
   },
@@ -300,6 +339,7 @@
     "id": "5B298432-09CA-4813-A1E9-616ED6AEBCBF",
     "name": "Belphagor",
     "thumbnail": "https://google.de",
+    "artistId": "49736F4F-AD9A-488C-8381-16444B86FA24",
     "url": "https://google.de",
     "_comment": "Helluva Boss"
   },
@@ -307,6 +347,7 @@
     "id": "06A90FE1-A46C-4E97-97FE-BC3062D29474",
     "name": "Leviathan",
     "thumbnail": "https://google.de",
+    "artistId": "23752C1A-2287-42EE-B960-974E69AB8D6D",
     "url": "https://google.de",
     "_comment": "Helluva Boss"
   },
@@ -314,6 +355,7 @@
     "id": "1BB326DB-6629-4C2D-BF5C-D7793361D051",
     "name": "Vassago",
     "thumbnail": "https://google.de",
+    "artistId": "705CC53B-DCBD-4EEB-9E18-58893F656688",
     "url": "https://google.de",
     "_comment": "Helluva Boss"
   },
@@ -321,6 +363,7 @@
     "id": "3007FDFC-65FF-4A3D-853E-8694532ED568",
     "name": "Verosika",
     "thumbnail": "https://google.de",
+    "artistId": "31F53318-0130-4954-A8B6-235B55031F83",
     "url": "https://google.de",
     "_comment": "Helluva Boss"
   },
@@ -342,6 +385,7 @@
     "id": "25D947C8-923E-4FCA-98AB-BE1CEDC7BE31",
     "name": "Andrealphus",
     "thumbnail": "https://google.de",
+    "artistId": "705CC53B-DCBD-4EEB-9E18-58893F656688",
     "url": "https://google.de",
     "_comment": "Helluva Boss"
   },

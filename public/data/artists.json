@@ -50,7 +50,7 @@
         "icon": "mgc_bluesky_social_line"
       },
       {
-        "label": "Other",
+        "label": "Personal website",
         "url": "https://raine-hill.carrd.co/",
         "icon": "mgc_instagram_line"
       }
@@ -94,7 +94,7 @@
         "icon": "mgc_instagram_line"
       },
       {
-        "label": "Other",
+        "label": "Personal website",
         "url": "https://tsukkisol.carrd.co/",
         "icon": "mgc_earth_2_line"
       }
@@ -161,7 +161,7 @@
         "icon": "mgc_bluesky_social_line"
       },
       {
-        "label": "Other",
+        "label": "Personal website",
         "url": "https://www.bluekoinu.com/",
         "icon": "mgc_earth_2_line"
       }
@@ -225,7 +225,7 @@
         "icon": "mgc_social_x_line"
       },
       {
-        "label": "Other",
+        "label": "Personal website",
         "url": "https://coconutbiko.carrd.co/",
         "icon": "mgc_earth_2_line"
       }
@@ -240,6 +240,19 @@
       {
         "label": "Instagram",
         "url": "https://www.instagram.com/emositecc/",
+        "icon": "mgc_instagram_line"
+      }
+    ]
+  },
+  {
+    "id": "23752C1A-2287-42EE-B960-974E69AB8D6D",
+    "name": "fnife",
+    "thumbnail": "https://img03.yinge.tech/acg/2025/10/23/ACG_25940/e78b23cb-1860-4859-9a28-6c1f22f38db6.png?x-oss-process=image/auto-orient,1/resize,s_300/quality,Q_70/interlace,1",
+    "url": "https://acggoods.com/store/fnifegoods",
+    "otherUrls": [
+      {
+        "label": "Instagram",
+        "url": "https://www.instagram.com/fn1f3",
         "icon": "mgc_instagram_line"
       }
     ]
