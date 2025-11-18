@@ -52,14 +52,6 @@ export class Navbar {
 
   protected onCreated(animationItem: AnimationItem) {
     this.lottieBurgerItem = animationItem
-
-    // if (this.isMobile) {
-    //   // Jump immediately to last frame (static)
-    //   const half = animationItem.getDuration(true) / 2
-
-    //   this.lottieBurgerItem.setSpeed(1.75)
-    //   animationItem.playSegments([0, half], true)
-    // }
   }
 
   private playForward() {
