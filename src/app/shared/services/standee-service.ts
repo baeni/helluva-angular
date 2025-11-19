@@ -10,6 +10,6 @@ export class StandeeService {
   private readonly _http = inject(HttpClient)
 
   getStandees(): Observable<Standee[]> {
-    return this._http.get<Standee[]>('/data/standees.json')
+    return this._http.get<Standee[]>('/data/standees/standees.json')
   }
 }

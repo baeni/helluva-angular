@@ -2,32 +2,45 @@ import { ChangeDetectionStrategy, Component, signal } from '@angular/core'
 import { RouterLink, RouterLinkActive } from '@angular/router'
 import { AnimationOptions, LottieComponent } from 'ngx-lottie'
 import { AnimationItem } from 'lottie-web'
+import { environment } from '../../../environments/environment'
+import { NgClass } from '@angular/common'
+import { Tooltip } from '../tooltip/tooltip'
 
 @Component({
   selector: 'navbar',
-  imports: [RouterLink, RouterLinkActive, LottieComponent],
+  imports: [RouterLink, RouterLinkActive, LottieComponent, NgClass, Tooltip],
   templateUrl: './navbar.html',
   changeDetection: ChangeDetectionStrategy.OnPush,
 })
 export class Navbar {
   protected readonly isOverlayOpen = signal<boolean>(false)
 
-  protected readonly items: { label: string; route: string }[] = [
+  protected readonly items: {
+    label: string
+    route: string
+    disabled: boolean
+  }[] = [
+    // Enabled depending on Environment variable ONLY_ARTISTS.
+    // Remember to also adjust in app.routes.ts
     {
       label: 'Standees',
       route: 'standees',
+      disabled: environment.ONLY_ARTISTS,
     },
     {
       label: 'Keychains',
       route: 'keychains',
+      disabled: environment.ONLY_ARTISTS,
     },
     {
       label: 'Stickers',
       route: 'stickers',
+      disabled: environment.ONLY_ARTISTS,
     },
     {
       label: 'Artists',
       route: 'artists',
+      disabled: false,
     },
   ]
 

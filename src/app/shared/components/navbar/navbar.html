@@ -5,18 +5,25 @@
 
   <div class="hidden md:flex gap-4 items-center">
     @for (item of items; track item.route) {
-    <a
-      class="relative text-(--color-tertiary)! font-medium group"
-      routerLinkActive="router-link-active"
-      [routerLinkActiveOptions]="{ exact: false }"
-      [routerLink]="item.route"
+    <tooltip
+      text="Section will be unlocked soon..."
+      position="bottom"
+      [disabled]="!item.disabled"
     >
-      {{ item.label }}
+      <a
+        class="relative text-(--color-tertiary)! font-medium group"
+        [ngClass]="{ 'text-(--color-tertiary)/50!': item.disabled }"
+        routerLinkActive="router-link-active"
+        [routerLinkActiveOptions]="{ exact: false }"
+        [routerLink]="item.route"
+      >
+        {{ item.label }}
 
-      <span
-        class="absolute bottom-0 left-0 h-1 w-0 bg-(--color-secondary) transition-all group-[.router-link-active]:w-full"
-      ></span>
-    </a>
+        <span
+          class="absolute bottom-0 left-0 h-1 w-0 bg-(--color-secondary) transition-all group-[.router-link-active]:w-full"
+        ></span>
+      </a>
+    </tooltip>
     }
   </div>
 
@@ -39,13 +46,19 @@
   <div class="w-[50vw] flex flex-col gap-4">
     @for (item of items; track item.route) {
     <a
-      class="relative text-2xl text-(--color-tertiary)! font-medium [.router-link-active]:scale-128 origin-left"
+      class="relative text-2xl text-(--color-tertiary)! font-medium [.router-link-active]:after:content-['—'] origin-left"
+      [ngClass]="{
+        'text-(--color-tertiary)/50!': item.disabled
+      }"
       routerLinkActive="router-link-active"
       [routerLinkActiveOptions]="{ exact: false }"
       [routerLink]="item.route"
       (click)="toggleOverlay()"
     >
       {{ item.label }}
+      @if (item.disabled) {
+      <small class="block text-sm">Section will be unlocked soon...</small>
+      }
     </a>
     }
   </div>

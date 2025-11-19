@@ -7,11 +7,12 @@
   (mouseleave)="playReverse()"
 >
   <div
-    class="w-full aspect-square overflow-hidden rounded-sm group-hover:rounded-md group-hover:scale-103 transition-all duration-500"
+    class="w-full aspect-square overflow-hidden rounded-sm group-hover:rounded-md group-hover:scale-103 transition-all duration-500 bg-(--color-primary)/50"
   >
     <img
       class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
-      [src]="`https://i.pravatar.cc/400?u=${_shopItem.id}`"
+      [src]="_shopItem.thumbnail"
+      (error)="onImageError($event, _shopItem)"
     />
   </div>
 
@@ -32,7 +33,6 @@
           @{{ _artistName }}
         </a>
       </tooltip>
-
       } @else {
       <span
         class="text-sm font-medium line-clamp-1 text-(--color-primary) opacity-80"

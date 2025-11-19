@@ -69,4 +69,9 @@ export class ShopItemCard {
     this.lottieBagItem.setSpeed(-1.75)
     this.lottieBagItem.play()
   }
+
+  protected onImageError(e: Event, shopItem: ShopItem) {
+    const img = e.target as HTMLImageElement
+    img.src = `https://i.pravatar.cc/400?u=${shopItem.id}`
+  }
 }

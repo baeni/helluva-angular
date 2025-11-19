@@ -10,6 +10,7 @@ import { ChangeDetectionStrategy, Component, input } from '@angular/core'
 export class Tooltip {
   readonly text = input.required<string>()
   readonly position = input<'top' | 'bottom' | 'right' | 'left'>('top')
+  readonly disabled = input<boolean>(false)
 
   protected readonly tooltipPositionClasses: Record<string, string> = {
     top: 'left-1/2 -translate-x-1/2 bottom-full mb-2',
