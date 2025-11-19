@@ -4,7 +4,7 @@ import { Artists } from './pages/artists/artists'
 import { Stickers } from './pages/stickers/stickers'
 import { Keychains } from './pages/keychains/keychains'
 import { DefaultLayout } from './shared/layouts/default-layout/default-layout'
-import { environment } from './environments/environment'
+import { environment } from '../environments/environment'
 
 const appTitle: string = 'HellACollab Snowball-Fight Fan Merch'
 
