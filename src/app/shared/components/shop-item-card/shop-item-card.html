@@ -1,4 +1,5 @@
 @let _shopItem = shopItem();
+
 <a
   class="group w-full flex flex-col gap-2 p-(--content-padding) rounded-xl bg-(--color-secondary) hover:bg-(--color-tertiary) transition-colors duration-500"
   [href]="_shopItem.url"
@@ -18,40 +19,36 @@
 
   <div class="flex flex-col justify-end h-full">
     <span
-      class="text-2xl font-semibold line-clamp-1 text-(--color-tertiary) group-hover:text-(--color-primary) transition-colors duration-500"
+      class="text-2xl font-semibold truncate text-(--color-tertiary) group-hover:text-(--color-primary) transition-colors duration-500"
     >
       {{ _shopItem.name }}
     </span>
 
-    <div class="relative flex justify-between items-center">
-      @let _artistName = artistName(); @if (_artistName) {
-      <tooltip text="Artist" position="bottom">
-        <a
-          class="text-sm font-medium line-clamp-1 text-(--color-primary) opacity-80 hover:opacity-100 transition-opacity"
-          routerLink="/artists"
-          [fragment]="_shopItem.artistId"
-          target="_top"
-        >
+    <div class="flex justify-between items-center">
+      @let _artistName = artistName();
+
+      <span
+        class="flex-1 text-sm font-medium truncate text-(--color-tertiary) group-hover:text-(--color-primary) opacity-80 duration-500 transition-colors"
+      >
+        @if (_artistName) {
+        <a routerLink="/artists" [fragment]="_shopItem.artistId" target="_top">
           @{{ _artistName }}
         </a>
-      </tooltip>
-      } @else {
-      <span
-        class="text-sm font-medium line-clamp-1 text-(--color-primary) opacity-80"
-      >
-        Unknown artist
+        } @else {
+        <span> Unknown artist </span>
+        }
       </span>
-      } @if (!isMobile) {
-      <ng-lottie
-        class="absolute right-0 bottom-0 w-10 aspect-square"
-        [options]="lottieBagOptions"
-        (animationCreated)="onCreated($event)"
-      ></ng-lottie>
+
+      @if (!isMobile) {
+      <div class="relative w-6 aspect-square overflow-hidden">
+        <ng-lottie
+          class="absolute scale-200"
+          [options]="lottieBagOptions"
+          (animationCreated)="onCreated($event)"
+        ></ng-lottie>
+      </div>
       } @else {
-      <img
-        class="absolute right-0 bottom-0 w-10 aspect-square"
-        src="/lottie/bag.png"
-      />
+      <img class="w-6 aspect-square" src="/lottie/bag-primary.webp" />
       }
     </div>
   </div>

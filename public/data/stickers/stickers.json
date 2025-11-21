@@ -2,91 +2,120 @@
   {
     "id": "36802913-5E48-4122-942E-C5F028FF7BD4",
     "name": "Charlie",
-    "thumbnail": "https://google.de",
+    "thumbnail": "/data/stickers/img/charlie.png",
+    "artistId": "438796CC-07F2-4455-988A-A9BE4975136F",
     "url": "https://google.de",
     "_comment": "Required"
   },
   {
     "id": "2FE9FB17-4FA5-4C4C-A88F-80D56FAB1474",
     "name": "Vaggie",
-    "thumbnail": "https://google.de",
+    "thumbnail": "/data/stickers/img/vaggie.png",
+    "artistId": "C04FF736-E798-4946-8D60-55DB7D243B30",
     "url": "https://google.de",
     "_comment": "Required"
   },
   {
     "id": "D863DCBB-B56F-45D1-998D-0AE998272489",
     "name": "Alastor",
-    "thumbnail": "https://google.de",
+    "thumbnail": "/data/stickers/img/alastor.png",
+    "artistId": "49736F4F-AD9A-488C-8381-16444B86FA24",
     "url": "https://google.de",
     "_comment": "Required"
   },
   {
     "id": "ACB46A57-C6B2-4F47-92AA-880693541233",
     "name": "Lucifer",
-    "thumbnail": "https://google.de",
+    "thumbnail": "/data/stickers/img/lucifer.png",
+    "artistId": "49736F4F-AD9A-488C-8381-16444B86FA24",
     "url": "https://google.de",
     "_comment": "Required"
   },
   {
     "id": "57B45FF4-79F8-4B82-BDD2-08855544B009",
     "name": "Angel Dust",
-    "thumbnail": "https://google.de",
+    "thumbnail": "/data/stickers/img/angel_dust.png",
+    "artistId": "08A139EC-B84C-44DD-8805-DA0758683C5F",
     "url": "https://google.de",
     "_comment": "Required"
   },
   {
     "id": "FE2E307C-DC28-4601-9C82-88F3E931824B",
     "name": "Husk",
-    "thumbnail": "https://google.de",
+    "thumbnail": "/data/stickers/img/husk.png",
+    "artistId": "08A139EC-B84C-44DD-8805-DA0758683C5F",
     "url": "https://google.de",
     "_comment": "Required"
   },
   {
     "id": "366CD868-60A0-4125-805E-7EEA0B3ECC65",
     "name": "Niffty",
-    "thumbnail": "https://google.de",
+    "thumbnail": "/data/stickers/img/niffty.png",
+    "artistId": "9BBDC417-F5A4-4497-B883-F490A5F86CC3",
     "url": "https://google.de",
     "_comment": "Required"
   },
   {
     "id": "C156B859-D1DB-4D0A-9391-C9A54E1CACE9",
     "name": "Baxter",
-    "thumbnail": "https://google.de",
+    "thumbnail": "/data/stickers/img/baxter.png",
+    "artistId": "C04FF736-E798-4946-8D60-55DB7D243B30",
     "url": "https://google.de",
     "_comment": "Required"
   },
   {
     "id": "86834EE6-92C2-4D0D-9083-D25054E2545C",
     "name": "Cherrie",
-    "thumbnail": "https://google.de",
+    "thumbnail": "/data/stickers/img/cherrie_bomb.png",
+    "artistId": "C04FF736-E798-4946-8D60-55DB7D243B30",
     "url": "https://google.de",
     "_comment": "Required"
   },
   {
     "id": "C9A3419E-A6CC-4CB5-8956-7F48CB302A82",
-    "name": "Sir Pentious (Egg bois?)",
-    "thumbnail": "https://google.de",
+    "name": "Sir Pentious (Egg bois?) Hell form",
+    "thumbnail": "/data/stickers/img/sir_pentious_hell.png",
+    "artistId": "9BBDC417-F5A4-4497-B883-F490A5F86CC3",
+    "url": "https://google.de",
+    "_comment": "Required"
+  },
+  {
+    "id": "5E3132FA-367B-4D7E-B4FB-B7CA4D483205",
+    "name": "Sir Pentious Heaven form",
+    "thumbnail": "/data/stickers/img/sir_pentious_heaven.png",
+    "artistId": "4C618FA2-B6D5-47B6-B3CD-761B685E146D",
     "url": "https://google.de",
     "_comment": "Required"
   },
   {
     "id": "3D91489E-9EB8-45F1-BA5B-3E17E394F3BD",
     "name": "Vox",
-    "thumbnail": "https://google.de",
+    "thumbnail": "/data/stickers/img/vox.png",
+    "artistId": "5109B599-24D3-4456-B9B4-5B1F93C5B87B",
+    "url": "https://google.de",
+    "_comment": "Required"
+  },
+  {
+    "id": "745F193F-769A-4180-99AC-A9CE5B51AE1F",
+    "name": "Vox second form",
+    "thumbnail": "/data/stickers/img/vox_second_form.png",
+    "artistId": "8B9BC6FA-BC80-43B5-AFC7-5817D2352F86",
     "url": "https://google.de",
     "_comment": "Required"
   },
   {
     "id": "F84C5ECD-8931-46F8-8F7F-55F1F2D2EF9F",
     "name": "Valentino",
-    "thumbnail": "https://google.de",
+    "thumbnail": "/data/stickers/img/valentino.png",
+    "artistId": "5109B599-24D3-4456-B9B4-5B1F93C5B87B",
     "url": "https://google.de",
     "_comment": "Required"
   },
   {
     "id": "D9A3A66C-C666-46A1-92DD-F943F73A3D61",
     "name": "Velvette",
-    "thumbnail": "https://google.de",
+    "thumbnail": "/data/stickers/img/velvette.png",
+    "artistId": "31F53318-0130-4954-A8B6-235B55031F83",
     "url": "https://google.de",
     "_comment": "Required"
   },
@@ -94,119 +123,156 @@
   {
     "id": "9CCBF6A3-94A5-47EB-9502-E3B5564FEBDA",
     "name": "Rosie",
-    "thumbnail": "https://google.de",
+    "thumbnail": "/data/stickers/img/rosie.png",
+    "artistId": "44602D97-2DA9-4C8C-B8F6-AD56E26B7601",
     "url": "https://google.de",
     "_comment": "Optional"
   },
   {
     "id": "4FBCD23A-799C-4253-AA7D-BEB891C2D669",
     "name": "Mimzy",
-    "thumbnail": "https://google.de",
+    "thumbnail": "/data/stickers/img/mimzy.png",
+    "artistId": "23752C1A-2287-42EE-B960-974E69AB8D6D",
     "url": "https://google.de",
     "_comment": "Optional"
   },
   {
     "id": "3A41D932-DEE0-41D8-B4FF-83A3B0C57B70",
     "name": "Carmilla",
-    "thumbnail": "https://google.de",
+    "thumbnail": "/data/stickers/img/carmilla.png",
+    "artistId": "CC910DE8-E804-44DF-BD29-71933D73E411",
     "url": "https://google.de",
     "_comment": "Optional"
   },
   {
     "id": "78238052-67A8-4A5B-B10D-1221DA9CB815",
     "name": "(Clara + Odette)",
-    "thumbnail": "https://google.de",
+    "thumbnail": "/data/stickers/img/carla_and_odette.png",
     "url": "https://google.de",
     "_comment": "Optional"
   },
   {
     "id": "8DA82B8A-8E82-42DB-ADD6-50D5C6AED28D",
     "name": "Zestial",
-    "thumbnail": "https://google.de",
+    "thumbnail": "/data/stickers/img/zestial.png",
+    "artistId": "9BBDC417-F5A4-4497-B883-F490A5F86CC3",
     "url": "https://google.de",
     "_comment": "Optional"
   },
   {
     "id": "F22B2A83-AAC6-4595-A53D-A0B10F9839CF",
     "name": "Lilith",
-    "thumbnail": "https://google.de",
+    "thumbnail": "/data/stickers/img/lilith.png",
+    "artistId": "44602D97-2DA9-4C8C-B8F6-AD56E26B7601",
     "url": "https://google.de",
     "_comment": "Optional"
   },
   {
     "id": "EA86055C-E8D1-456A-A4D6-E0542E01CA61",
     "name": "Katie Killjoy + Tom Trench",
-    "thumbnail": "https://google.de",
+    "thumbnail": "/data/stickers/img/katie_killjoy_and_tom_trench.png",
+    "artistId": "31F53318-0130-4954-A8B6-235B55031F83",
     "url": "https://google.de",
     "_comment": "Optional"
   },
   {
     "id": "D2BE7984-7DCF-49F0-82AF-5310DE526662",
     "name": "Razzle/Dazzle",
-    "thumbnail": "https://google.de",
+    "thumbnail": "/data/stickers/img/razzle_dazzle.png",
+    "artistId": "DFCABAC3-5632-4D68-9E48-B417B6FACB17",
     "url": "https://google.de",
     "_comment": "Optional"
   },
   {
     "id": "2E1A217D-3855-42B3-8336-DD12C6831221",
     "name": "Fat Nuggets + Keekee",
-    "thumbnail": "https://google.de",
+    "thumbnail": "/data/stickers/img/fat_nuggets_and_keekee.png",
+    "artistId": "C04FF736-E798-4946-8D60-55DB7D243B30",
     "url": "https://google.de",
     "_comment": "Optional"
   },
   {
     "id": "A97A7C9B-3324-4B5D-9E3A-1F586536E780",
     "name": "Alastor's shadow",
-    "thumbnail": "https://google.de",
+    "thumbnail": "/data/stickers/img/alastors_shadow.png",
+    "artistId": "7DA69067-C63D-45A0-BCE9-144C70EA9861",
     "url": "https://google.de",
     "_comment": "Optional"
   },
   {
     "id": "CA21FB84-C619-4F0C-92D1-FDC52C0ADA87",
     "name": "Lute (+ Adam?)",
-    "thumbnail": "https://google.de",
+    "thumbnail": "/data/stickers/img/lute_and_adam.png",
+    "artistId": "08A139EC-B84C-44DD-8805-DA0758683C5F",
     "url": "https://google.de",
     "_comment": "Optional"
   },
   {
     "id": "CDCD9EBA-4FA5-4AAA-BBEC-17F8EBE35D38",
     "name": "Sera",
-    "thumbnail": "https://google.de",
+    "thumbnail": "/data/stickers/img/sera.png",
+    "artistId": "CC910DE8-E804-44DF-BD29-71933D73E411",
     "url": "https://google.de",
     "_comment": "Optional"
   },
   {
     "id": "7BC49960-7030-46B9-BFB0-6CB29E10BC23",
     "name": "Emily",
-    "thumbnail": "https://google.de",
+    "thumbnail": "/data/stickers/img/emily.png",
+    "artistId": "705CC53B-DCBD-4EEB-9E18-58893F656688",
     "url": "https://google.de",
     "_comment": "Optional"
   },
   {
     "id": "96127BB6-DDAB-4701-A5B2-0FD5A5FCFFB5",
     "name": "The Godspeaker",
-    "thumbnail": "https://google.de",
+    "thumbnail": "/data/stickers/img/the_godspeaker.png",
+    "artistId": "705CC53B-DCBD-4EEB-9E18-58893F656688",
     "url": "https://google.de",
     "_comment": "Optional"
   },
   {
     "id": "BFF8F734-A8B1-4060-AECF-F56D2032D588",
-    "name": "St.Peter",
-    "thumbnail": "https://google.de",
+    "name": "St. Peter",
+    "thumbnail": "/data/stickers/img/saint_peter.png",
+    "artistId": "49736F4F-AD9A-488C-8381-16444B86FA24",
     "url": "https://google.de",
     "_comment": "Optional"
   },
   {
     "id": "DEFA9151-E1C2-43CE-84A7-FED01B84CF09",
     "name": "Able",
-    "thumbnail": "https://google.de",
+    "thumbnail": "/data/stickers/img/able.png",
+    "artistId": "C04FF736-E798-4946-8D60-55DB7D243B30",
     "url": "https://google.de",
     "_comment": "Optional"
   },
   {
     "id": "8E423AA3-24A9-40CE-8E2B-F335FD3ED07D",
-    "name": "Susan ...",
-    "thumbnail": "https://google.de",
+    "name": "Susan",
+    "thumbnail": "/data/stickers/img/susan.png",
+    "artistId": "49736F4F-AD9A-488C-8381-16444B86FA24",
+    "url": "https://google.de",
+    "_comment": "Optional"
+  },
+  {
+    "id": "77F47B9D-9E1F-43D7-AA9D-A47C83A16E79",
+    "name": "Frederik van Eldritch",
+    "thumbnail": "/data/stickers/img/frederik_van_eldritch.png",
+    "url": "https://google.de",
+    "_comment": "Optional"
+  },
+  {
+    "id": "059571F7-8B3F-4788-A658-BA610A8F9076",
+    "name": "Molly",
+    "thumbnail": "/data/stickers/img/molly.png",
+    "url": "https://google.de",
+    "_comment": "Optional"
+  },
+  {
+    "id": "92BB1461-E6F3-490F-A8AD-988EF59B72FC",
+    "name": "Arakniss",
+    "thumbnail": "/data/stickers/img/arakniss.png",
     "url": "https://google.de",
     "_comment": "Optional"
   },
@@ -214,140 +280,156 @@
   {
     "id": "7C19B138-8144-4D57-84B1-B43D9D6F5DBA",
     "name": "Blitzo",
-    "thumbnail": "https://google.de",
+    "thumbnail": "/data/stickers/img/blitzo.png",
+    "artistId": "705CC53B-DCBD-4EEB-9E18-58893F656688",
     "url": "https://google.de",
     "_comment": "Helluva Boss"
   },
   {
     "id": "4FB93252-BA9C-4EE2-A0EF-519919C52833",
     "name": "Moxxie",
-    "thumbnail": "https://google.de",
+    "thumbnail": "/data/stickers/img/moxxie.png",
+    "artistId": "9981AA10-DC97-4F73-BEAB-852D92A47770",
     "url": "https://google.de",
     "_comment": "Helluva Boss"
   },
   {
     "id": "8C1207E6-BF61-4161-A801-F32B7DD9761B",
     "name": "Millie",
-    "thumbnail": "https://google.de",
+    "thumbnail": "/data/stickers/img/millie.png",
+    "artistId": "9981AA10-DC97-4F73-BEAB-852D92A47770",
     "url": "https://google.de",
     "_comment": "Helluva Boss"
   },
   {
     "id": "848DA9F1-B5F0-4F87-B886-55477F23140A",
     "name": "Loona",
-    "thumbnail": "https://google.de",
+    "thumbnail": "/data/stickers/img/loona.png",
     "url": "https://google.de",
     "_comment": "Helluva Boss"
   },
   {
     "id": "D592E47C-A24B-4FDF-936A-82D34E7AC48A",
     "name": "Stolas",
-    "thumbnail": "https://google.de",
+    "thumbnail": "/data/stickers/img/stolas.png",
+    "artistId": "705CC53B-DCBD-4EEB-9E18-58893F656688",
     "url": "https://google.de",
     "_comment": "Helluva Boss"
   },
   {
     "id": "84B19C66-BBF0-4405-B0AF-9A83A023D058",
     "name": "Octavia",
-    "thumbnail": "https://google.de",
+    "thumbnail": "/data/stickers/img/octavia.png",
     "url": "https://google.de",
     "_comment": "Helluva Boss"
   },
   {
     "id": "BDE016D3-DD66-410E-9203-7032AC60D813",
     "name": "Stella",
-    "thumbnail": "https://google.de",
+    "thumbnail": "/data/stickers/img/stella.png",
+    "artistId": "23752C1A-2287-42EE-B960-974E69AB8D6D",
     "url": "https://google.de",
     "_comment": "Helluva Boss"
   },
   {
     "id": "61748181-F611-46E6-A92F-084102D843E6",
     "name": "Fizzarolli",
-    "thumbnail": "https://google.de",
+    "thumbnail": "/data/stickers/img/fizzarolli.png",
+    "artistId": "DCCF4082-65FC-437E-87BF-0CF23243DE24",
     "url": "https://google.de",
     "_comment": "Helluva Boss"
   },
   {
     "id": "83980D2D-C5C1-4B9F-B5CF-ADC1075E6A82",
     "name": "Asmodeus",
-    "thumbnail": "https://google.de",
+    "thumbnail": "/data/stickers/img/asmodeus.png",
+    "artistId": "DCCF4082-65FC-437E-87BF-0CF23243DE24",
     "url": "https://google.de",
     "_comment": "Helluva Boss"
   },
   {
     "id": "9D3A244D-6E10-47BF-B681-4EBCFD02B0C3",
     "name": "Beelzebub",
-    "thumbnail": "https://google.de",
+    "thumbnail": "/data/stickers/img/beelzebub.png",
+    "artistId": "23752C1A-2287-42EE-B960-974E69AB8D6D",
     "url": "https://google.de",
     "_comment": "Helluva Boss"
   },
   {
     "id": "EA173F6A-C014-4BC9-AAFE-7E2B70C52625",
     "name": "Mammon",
-    "thumbnail": "https://google.de",
+    "thumbnail": "/data/stickers/img/mammon.png",
+    "artistId": "31F53318-0130-4954-A8B6-235B55031F83",
     "url": "https://google.de",
     "_comment": "Helluva Boss"
   },
   {
     "id": "6828DC00-23E0-4B25-8D9E-787116BE79DB",
     "name": "Satan (+ Yogirt?)",
-    "thumbnail": "https://google.de",
-    "url": "https://google.de",
+    "thumbnail": "/data/stickers/img/satan_and_yogirt.png",
+    "artistId": "49736F4F-AD9A-488C-8381-16444B86FA24",
+    "url": "https://acggoods.com/product/snowball-fight-collaboration-satan-and-yogirt-stickers/65804",
     "_comment": "Helluva Boss"
   },
   {
     "id": "825748C6-BC26-4792-976D-DBD310AE455E",
     "name": "Belphagor",
-    "thumbnail": "https://google.de",
+    "thumbnail": "/data/stickers/img/belphagor.png",
+    "artistId": "49736F4F-AD9A-488C-8381-16444B86FA24",
     "url": "https://google.de",
     "_comment": "Helluva Boss"
   },
   {
     "id": "E9C7EB1A-8290-4151-8385-A1B5B0C954F5",
     "name": "Leviathan",
-    "thumbnail": "https://google.de",
+    "thumbnail": "/data/stickers/img/leviathan.png",
+    "artistId": "23752C1A-2287-42EE-B960-974E69AB8D6D",
     "url": "https://google.de",
     "_comment": "Helluva Boss"
   },
   {
     "id": "3F95E643-4D6B-4BC6-8E70-F5488766AA37",
     "name": "Vassago",
-    "thumbnail": "https://google.de",
+    "thumbnail": "/data/stickers/img/vassago.png",
+    "artistId": "705CC53B-DCBD-4EEB-9E18-58893F656688",
     "url": "https://google.de",
     "_comment": "Helluva Boss"
   },
   {
     "id": "A01322AA-24D9-4939-A780-8ABEDC4248EF",
     "name": "Verosika",
-    "thumbnail": "https://google.de",
+    "thumbnail": "/data/stickers/img/verosika.png",
+    "artistId": "31F53318-0130-4954-A8B6-235B55031F83",
     "url": "https://google.de",
     "_comment": "Helluva Boss"
   },
   {
     "id": "581604A0-12CE-4E16-AF9F-7B7496FAF3B2",
     "name": "Striker",
-    "thumbnail": "https://google.de",
+    "thumbnail": "/data/stickers/img/striker.png",
+    "artistId": "8B9BC6FA-BC80-43B5-AFC7-5817D2352F86",
     "url": "https://google.de",
     "_comment": "Helluva Boss"
   },
   {
     "id": "7476260A-6848-400C-81E1-A0DFDFDE4C50",
     "name": "Paimon",
-    "thumbnail": "https://google.de",
+    "thumbnail": "/data/stickers/img/paimon.png",
     "url": "https://google.de",
     "_comment": "Helluva Boss"
   },
   {
     "id": "F006A423-876E-46B7-9E61-A557A3F7AAA0",
     "name": "Andrealphus",
-    "thumbnail": "https://google.de",
+    "thumbnail": "/data/stickers/img/andrealphus.png",
+    "artistId": "705CC53B-DCBD-4EEB-9E18-58893F656688",
     "url": "https://google.de",
     "_comment": "Helluva Boss"
   },
   {
     "id": "08FC8EF3-76B9-473F-ADD8-030657DA31B6",
     "name": "Vortex",
-    "thumbnail": "https://google.de",
+    "thumbnail": "/data/stickers/img/vortex.png",
     "url": "https://google.de",
     "_comment": "Helluva Boss"
   }

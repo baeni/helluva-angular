@@ -18,9 +18,9 @@
   {
     "id": "7B3212E4-8CC4-4FAA-943D-A96A47E94A8E",
     "name": "Alastor",
-    "thumbnail": "/data/standees/img/alastors.png",
+    "thumbnail": "/data/standees/img/alastor.png",
     "artistId": "49736F4F-AD9A-488C-8381-16444B86FA24",
-    "url": "https://google.de",
+    "url": "https://acggoods.com/product/snowball-fight-collaboration-alastor-acrylic-standee/65824",
     "_comment": "Required"
   },
   {
@@ -28,7 +28,7 @@
     "name": "Lucifer",
     "thumbnail": "/data/standees/img/lucifer.png",
     "artistId": "49736F4F-AD9A-488C-8381-16444B86FA24",
-    "url": "https://google.de",
+    "url": "https://acggoods.com/product/snowball-fight-collaboration-lucifer-acrylic-standees/65826",
     "_comment": "Required"
   },
   {
@@ -73,9 +73,17 @@
   },
   {
     "id": "D9100D8E-8DF6-412F-B9C7-4C840C3E4D69",
-    "name": "Sir Pentious (Egg bois?)",
+    "name": "Sir Pentious (Egg bois?) Hell form",
     "thumbnail": "/data/standees/img/sir_pentious_hell.png",
     "artistId": "9BBDC417-F5A4-4497-B883-F490A5F86CC3",
+    "url": "https://google.de",
+    "_comment": "Required"
+  },
+  {
+    "id": "E760F7C0-AFA6-420B-AD94-0D40D14B0FDD",
+    "name": "Sir Pentious Heaven form",
+    "thumbnail": "/data/standees/img/sir_pentious_heaven.png",
+    "artistId": "4C618FA2-B6D5-47B6-B3CD-761B685E146D",
     "url": "https://google.de",
     "_comment": "Required"
   },
@@ -84,6 +92,14 @@
     "name": "Vox",
     "thumbnail": "/data/standees/img/vox.png",
     "artistId": "5109B599-24D3-4456-B9B4-5B1F93C5B87B",
+    "url": "https://google.de",
+    "_comment": "Required"
+  },
+  {
+    "id": "C8800E61-6067-4736-B453-86D65130A137",
+    "name": "Vox second form",
+    "thumbnail": "/data/standees/img/vox_second_form.png",
+    "artistId": "8B9BC6FA-BC80-43B5-AFC7-5817D2352F86",
     "url": "https://google.de",
     "_comment": "Required"
   },
@@ -116,7 +132,8 @@
     "id": "160B0E1E-9873-494B-A690-42C90CD66776",
     "name": "Mimzy",
     "thumbnail": "/data/standees/img/mimzy.png",
-    "url": "https://google.de",
+    "artistId": "23752C1A-2287-42EE-B960-974E69AB8D6D",
+    "url": "https://acggoods.com/product/mimzy-snowball-fight-acrylic-standee/72502?from=share",
     "_comment": "Optional"
   },
   {
@@ -203,7 +220,7 @@
     "name": "Emily",
     "thumbnail": "/data/standees/img/emily.png",
     "artistId": "705CC53B-DCBD-4EEB-9E18-58893F656688",
-    "url": "https://google.de",
+    "url": "https://acggoods.com/product/standee-emily-snowball-fight-hazbin-hotel/65140",
     "_comment": "Optional"
   },
   {
@@ -216,10 +233,10 @@
   },
   {
     "id": "82E045A8-E692-4244-8289-ADBA1D55608A",
-    "name": "St.Peter",
+    "name": "St. Peter",
     "thumbnail": "/data/standees/img/saint_peter.png",
     "artistId": "49736F4F-AD9A-488C-8381-16444B86FA24",
-    "url": "https://google.de",
+    "url": "https://acggoods.com/product/snowball-fight-collaboration-saint-peter-acrylic-standees/65844",
     "_comment": "Optional"
   },
   {
@@ -232,9 +249,30 @@
   },
   {
     "id": "5E061F45-3B47-4BC5-A10D-5726B45E7A6A",
-    "name": "Susan ...",
+    "name": "Susan",
     "thumbnail": "/data/standees/img/susan.png",
     "artistId": "49736F4F-AD9A-488C-8381-16444B86FA24",
+    "url": "https://acggoods.com/product/snowball-fight-collaboration-susan-acrylic-standee/65830",
+    "_comment": "Optional"
+  },
+  {
+    "id": "52BD14A2-0AF4-4242-84D2-9BAF5B574689",
+    "name": "Frederik van Eldritch",
+    "thumbnail": "/data/standees/img/frederik_van_eldritch.png",
+    "url": "https://google.de",
+    "_comment": "Optional"
+  },
+  {
+    "id": "604DA227-3EC6-426B-9498-3C368188EEB2",
+    "name": "Molly",
+    "thumbnail": "/data/standees/img/molly.png",
+    "url": "https://google.de",
+    "_comment": "Optional"
+  },
+  {
+    "id": "C612C01E-26E6-4B9B-900C-FD970A85AC24",
+    "name": "Arakniss",
+    "thumbnail": "/data/standees/img/arakniss.png",
     "url": "https://google.de",
     "_comment": "Optional"
   },
@@ -244,7 +282,7 @@
     "name": "Blitzo",
     "thumbnail": "/data/standees/img/blitzo.png",
     "artistId": "705CC53B-DCBD-4EEB-9E18-58893F656688",
-    "url": "https://google.de",
+    "url": "https://acggoods.com/product/standee-blitz-snowball-fight-helluva-boss/66054",
     "_comment": "Helluva Boss"
   },
   {
@@ -267,7 +305,6 @@
     "id": "52A40B1F-7BBC-48A6-A4CB-7D0032FF02C0",
     "name": "Loona",
     "thumbnail": "/data/standees/img/loona.png",
-    "artistId": "CC910DE8-E804-44DF-BD29-71933D73E411",
     "url": "https://google.de",
     "_comment": "Helluva Boss"
   },
@@ -283,7 +320,6 @@
     "id": "A0FDD9F3-EA28-4749-9510-6DE51585E2E4",
     "name": "Octavia",
     "thumbnail": "/data/standees/img/octavia.png",
-    "artistId": "CC910DE8-E804-44DF-BD29-71933D73E411",
     "url": "https://google.de",
     "_comment": "Helluva Boss"
   },
@@ -292,7 +328,7 @@
     "name": "Stella",
     "thumbnail": "/data/standees/img/stella.png",
     "artistId": "23752C1A-2287-42EE-B960-974E69AB8D6D",
-    "url": "https://google.de",
+    "url": "https://acggoods.com/product/stella-snowball-fight-acrylic-standee/67444?from=share",
     "_comment": "Helluva Boss"
   },
   {
@@ -315,7 +351,7 @@
     "id": "7C0E771B-F02A-4BFA-9F09-BF898D58C4ED",
     "name": "Beelzebub",
     "thumbnail": "/data/standees/img/beelzebub.png",
-    "artistId": "CC910DE8-E804-44DF-BD29-71933D73E411",
+    "artistId": "23752C1A-2287-42EE-B960-974E69AB8D6D",
     "url": "https://google.de",
     "_comment": "Helluva Boss"
   },
@@ -332,7 +368,7 @@
     "name": "Satan + Yogirt",
     "thumbnail": "/data/standees/img/satan_and_yogirt.png",
     "artistId": "49736F4F-AD9A-488C-8381-16444B86FA24",
-    "url": "https://google.de",
+    "url": "https://acggoods.com/product/snowballfight-collaboration-satan-and-yogirt-acrylic-standees/65102",
     "_comment": "Helluva Boss"
   },
   {
@@ -348,7 +384,7 @@
     "name": "Leviathan",
     "thumbnail": "/data/standees/img/leviathan.png",
     "artistId": "23752C1A-2287-42EE-B960-974E69AB8D6D",
-    "url": "https://google.de",
+    "url": "https://acggoods.com/product/leviathan-snowball-fight-acrylic-standee/66966?from=share",
     "_comment": "Helluva Boss"
   },
   {
@@ -371,6 +407,7 @@
     "id": "1DD0EE3A-F8FA-42F8-88E2-7D9CE24D0A39",
     "name": "Striker",
     "thumbnail": "/data/standees/img/striker.png",
+    "artistId": "8B9BC6FA-BC80-43B5-AFC7-5817D2352F86",
     "url": "https://google.de",
     "_comment": "Helluva Boss"
   },

@@ -10,6 +10,6 @@ export class StickerService {
   private readonly _http = inject(HttpClient)
 
   getStickers(): Observable<Sticker[]> {
-    return this._http.get<Sticker[]>('/data/stickers.json')
+    return this._http.get<Sticker[]>('/data/stickers/stickers.json')
   }
 }

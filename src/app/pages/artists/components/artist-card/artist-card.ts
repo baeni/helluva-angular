@@ -7,7 +7,7 @@ import {
 } from '@angular/core'
 import { Artist } from '../../../../shared/types/artist'
 import { isPlatformBrowser } from '@angular/common'
-import { Tooltip } from '../../../../shared/components/tooltip/tooltip'
+import { Tooltip } from '../../../../shared/directives/tooltip'
 
 @Component({
   selector: 'artist-card',

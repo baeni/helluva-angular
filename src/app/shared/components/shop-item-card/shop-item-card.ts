@@ -14,11 +14,10 @@ import { switchMap } from 'rxjs'
 import { AnimationOptions, LottieComponent } from 'ngx-lottie'
 import { AnimationItem } from 'lottie-web'
 import { isPlatformBrowser } from '@angular/common'
-import { Tooltip } from '../tooltip/tooltip'
 
 @Component({
   selector: 'shop-item-card',
-  imports: [RouterModule, LottieComponent, Tooltip],
+  imports: [RouterModule, LottieComponent],
   templateUrl: './shop-item-card.html',
   changeDetection: ChangeDetectionStrategy.OnPush,
 })

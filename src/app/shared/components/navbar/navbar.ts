@@ -4,7 +4,7 @@ import { AnimationOptions, LottieComponent } from 'ngx-lottie'
 import { AnimationItem } from 'lottie-web'
 import { environment } from '../../../../environments/environment'
 import { NgClass } from '@angular/common'
-import { Tooltip } from '../tooltip/tooltip'
+import { Tooltip } from '../../directives/tooltip'
 
 @Component({
   selector: 'navbar',

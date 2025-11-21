@@ -1,6 +1,6 @@
 <div class="flex justify-between items-center h-18 mx-4 md:mx-0">
   <div class="flex gap-2 items-center">
-    <img class="w-30" src="/data/logo.png" />
+    <img class="w-36 border border-red-200" src="/data/logo.png" />
     <h1 class="text-lg text-(--color-tertiary) font-black">
       HellACollab Snowball-Fight Fan Merch
     </h1>
@@ -8,25 +8,21 @@
 
   <div class="hidden md:flex gap-4 items-center">
     @for (item of items; track item.route) {
-    <tooltip
-      text="Section will be unlocked soon..."
-      position="bottom"
-      [disabled]="!item.disabled"
+    <a
+      [tooltipDisabled]="!item.disabled"
+      class="relative text-(--color-tertiary)! font-medium group"
+      [ngClass]="{ 'text-(--color-tertiary)/50!': item.disabled }"
+      routerLinkActive="router-link-active"
+      [routerLinkActiveOptions]="{ exact: false }"
+      [routerLink]="item.route"
+      tooltip="Section will be unlocked soon..."
     >
-      <a
-        class="relative text-(--color-tertiary)! font-medium group"
-        [ngClass]="{ 'text-(--color-tertiary)/50!': item.disabled }"
-        routerLinkActive="router-link-active"
-        [routerLinkActiveOptions]="{ exact: false }"
-        [routerLink]="item.route"
-      >
-        {{ item.label }}
+      {{ item.label }}
 
-        <span
-          class="absolute bottom-0 left-0 h-1 w-0 bg-(--color-secondary) transition-all group-[.router-link-active]:w-full"
-        ></span>
-      </a>
-    </tooltip>
+      <span
+        class="absolute bottom-0 left-0 h-1 w-0 bg-(--color-secondary) transition-all group-[.router-link-active]:w-full"
+      ></span>
+    </a>
     }
   </div>
 

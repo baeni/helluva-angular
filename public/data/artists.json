@@ -58,7 +58,7 @@
   },
   {
     "id": "CC910DE8-E804-44DF-BD29-71933D73E411",
-    "name": "Skye",
+    "name": "Starry_Skye",
     "thumbnail": "https://img03.yinge.tech/acg/2025/10/06/ACG_5122/e5dbb353-e86b-4987-9e72-55b6d474e014.png?x-oss-process=image/auto-orient,1/resize,s_300/quality,Q_70/interlace,1",
     "url": "https://acggoods.com/store/starryskyes",
     "otherUrls": [
@@ -253,6 +253,19 @@
       {
         "label": "Instagram",
         "url": "https://www.instagram.com/fn1f3",
+        "icon": "mgc_instagram_line"
+      }
+    ]
+  },
+  {
+    "id": "8B9BC6FA-BC80-43B5-AFC7-5817D2352F86",
+    "name": "Seldood.doodles",
+    "thumbnail": "https://img03.yinge.tech/acg/2025/09/04/ACG_556/6a4f6db3-9213-45fa-b78a-3a9d1f9a7c33.PNG?x-oss-process=image/auto-orient,1/resize,s_300/quality,Q_70/interlace,1",
+    "url": "https://acggoods.com/store/seldooddoodles",
+    "otherUrls": [
+      {
+        "label": "Instagram",
+        "url": "https://www.instagram.com/seldood.doodles?igsh=M3dlNnJ6cmI4ZjB0",
         "icon": "mgc_instagram_line"
       }
     ]

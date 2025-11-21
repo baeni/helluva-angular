@@ -10,6 +10,6 @@ export class KeychainService {
   private readonly _http = inject(HttpClient)
 
   getKeychains(): Observable<Keychain[]> {
-    return this._http.get<Keychain[]>('/data/keychains.json')
+    return this._http.get<Keychain[]>('/data/keychains/keychains.json')
   }
 }
