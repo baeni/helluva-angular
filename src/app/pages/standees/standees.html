@@ -1,7 +1,21 @@
-<div
-  class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-2"
->
-  @for (standee of standees(); track standee.id) {
-  <shop-item-card [shopItem]="standee"></shop-item-card>
-  }
+@let _standees = standees();
+
+<div class="flex flex-col gap-4">
+  <div class="rounded-2xl overflow-hidden mb-10">
+    <img src="/data/banner.jpeg" />
+  </div>
+
+  <p class="text-4xl font-bold text-(--color-tertiary)">
+    <span class="text-(--color-tertiary)/50">{{ _standees.length }}</span>
+
+    Standees
+  </p>
+
+  <div
+    class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-2"
+  >
+    @for (standee of _standees; track standee.id) {
+    <shop-item-card [shopItem]="standee"></shop-item-card>
+    }
+  </div>
 </div>

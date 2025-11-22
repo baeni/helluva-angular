@@ -2,6 +2,7 @@ import {
   ChangeDetectionStrategy,
   Component,
   computed,
+  effect,
   inject,
   input,
   PLATFORM_ID,
@@ -14,6 +15,7 @@ import { switchMap } from 'rxjs'
 import { AnimationOptions, LottieComponent } from 'ngx-lottie'
 import { AnimationItem } from 'lottie-web'
 import { isPlatformBrowser } from '@angular/common'
+import { LottieCacheService } from '../../services/lottie-cache-service'
 
 @Component({
   selector: 'shop-item-card',
@@ -22,8 +24,10 @@ import { isPlatformBrowser } from '@angular/common'
   changeDetection: ChangeDetectionStrategy.OnPush,
 })
 export class ShopItemCard {
-  private readonly _artistService: ArtistService = inject(ArtistService)
   private readonly _platformId = inject(PLATFORM_ID)
+  private readonly _artistService: ArtistService = inject(ArtistService)
+  private readonly _lottieCacheService: LottieCacheService =
+    inject(LottieCacheService)
 
   readonly shopItem = input.required<ShopItem>()
 
@@ -40,12 +44,20 @@ export class ShopItemCard {
     isPlatformBrowser(this._platformId) &&
     matchMedia('(pointer: coarse)').matches
 
-  protected lottieBagOptions: AnimationOptions = {
-    path: '/lottie/bag.json',
-    autoplay: false,
-    loop: false,
-  }
+  protected lottieBagOptions: AnimationOptions | null = null
   private lottieBagItem: AnimationItem | null = null
+
+  constructor() {
+    effect(() => {
+      this._lottieCacheService.bag$.subscribe((json) => {
+        this.lottieBagOptions = {
+          animationData: json,
+          autoplay: false,
+          loop: false,
+        }
+      })
+    })
+  }
 
   protected onCreated(animationItem: AnimationItem) {
     this.lottieBagItem = animationItem
@@ -71,6 +83,7 @@ export class ShopItemCard {
 
   protected onImageError(e: Event, shopItem: ShopItem) {
     const img = e.target as HTMLImageElement
-    img.src = `https://i.pravatar.cc/400?u=${shopItem.id}`
+    img.style.display = 'none'
+    // img.src = `https://i.pravatar.cc/400?u=${shopItem.id}`
   }
 }

@@ -12,7 +12,7 @@ import { toSignal } from '@angular/core/rxjs-interop'
 export class Standees {
   private readonly _standeeService = inject(StandeeService)
 
-  protected readonly standees = toSignal(this._standeeService.getStandees(), {
+  protected readonly standees = toSignal(this._standeeService.getAll(), {
     initialValue: [],
   })
 }

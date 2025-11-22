@@ -1,7 +1,21 @@
-<div
-  class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-2"
->
-  @for (keychain of keychains(); track keychain.id) {
-  <shop-item-card [shopItem]="keychain"></shop-item-card>
-  }
+@let _keychains = keychains();
+
+<div class="flex flex-col gap-4">
+  <div class="rounded-2xl overflow-hidden mb-10">
+    <img src="/data/banner.jpeg" />
+  </div>
+
+  <p class="text-4xl font-bold text-(--color-tertiary)">
+    <span class="text-(--color-tertiary)/50">{{ _keychains.length }}</span>
+
+    Keychains
+  </p>
+
+  <div
+    class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-2"
+  >
+    @for (keychain of _keychains; track keychain.id) {
+    <shop-item-card [shopItem]="keychain"></shop-item-card>
+    }
+  </div>
 </div>

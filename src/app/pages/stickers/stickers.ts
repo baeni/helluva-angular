@@ -12,7 +12,7 @@ import { toSignal } from '@angular/core/rxjs-interop'
 export class Stickers {
   private readonly _stickerService = inject(StickerService)
 
-  protected readonly stickers = toSignal(this._stickerService.getStickers(), {
+  protected readonly stickers = toSignal(this._stickerService.getAll(), {
     initialValue: [],
   })
 }

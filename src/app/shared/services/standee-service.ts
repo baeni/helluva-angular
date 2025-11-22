@@ -1,6 +1,6 @@
 import { inject, Injectable } from '@angular/core'
 import { HttpClient } from '@angular/common/http'
-import { Observable } from 'rxjs'
+import { Observable, shareReplay } from 'rxjs'
 import { Standee } from '../types/standee'
 
 @Injectable({
@@ -9,7 +9,11 @@ import { Standee } from '../types/standee'
 export class StandeeService {
   private readonly _http = inject(HttpClient)
 
-  getStandees(): Observable<Standee[]> {
-    return this._http.get<Standee[]>('/data/standees/standees.json')
+  private readonly standees$ = this._http
+    .get<Standee[]>('/data/standees/standees.json')
+    .pipe(shareReplay(1))
+
+  getAll(): Observable<Standee[]> {
+    return this.standees$
   }
 }

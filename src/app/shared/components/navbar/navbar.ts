@@ -1,10 +1,17 @@
-import { ChangeDetectionStrategy, Component, signal } from '@angular/core'
+import {
+  ChangeDetectionStrategy,
+  Component,
+  effect,
+  inject,
+  signal,
+} from '@angular/core'
 import { RouterLink, RouterLinkActive } from '@angular/router'
 import { AnimationOptions, LottieComponent } from 'ngx-lottie'
 import { AnimationItem } from 'lottie-web'
 import { environment } from '../../../../environments/environment'
 import { NgClass } from '@angular/common'
 import { Tooltip } from '../../directives/tooltip'
+import { LottieCacheService } from '../../services/lottie-cache-service'
 
 @Component({
   selector: 'navbar',
@@ -13,6 +20,9 @@ import { Tooltip } from '../../directives/tooltip'
   changeDetection: ChangeDetectionStrategy.OnPush,
 })
 export class Navbar {
+  private readonly _lottieCacheService: LottieCacheService =
+    inject(LottieCacheService)
+
   protected readonly isOverlayOpen = signal<boolean>(false)
 
   protected readonly items: {
@@ -44,12 +54,20 @@ export class Navbar {
     },
   ]
 
-  protected lottieBurgerOptions: AnimationOptions = {
-    path: '/lottie/burger.json',
-    autoplay: false,
-    loop: false,
-  }
+  protected lottieBurgerOptions: AnimationOptions | null = null
   private lottieBurgerItem: AnimationItem | null = null
+
+  constructor() {
+    effect(() => {
+      this._lottieCacheService.burger$.subscribe((json) => {
+        this.lottieBurgerOptions = {
+          animationData: json,
+          autoplay: false,
+          loop: false,
+        }
+      })
+    })
+  }
 
   protected toggleOverlay() {
     const isOverlayOpen = this.isOverlayOpen()

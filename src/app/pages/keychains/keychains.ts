@@ -12,10 +12,7 @@ import { toSignal } from '@angular/core/rxjs-interop'
 export class Keychains {
   private readonly _keychainService = inject(KeychainService)
 
-  protected readonly keychains = toSignal(
-    this._keychainService.getKeychains(),
-    {
-      initialValue: [],
-    }
-  )
+  protected readonly keychains = toSignal(this._keychainService.getAll(), {
+    initialValue: [],
+  })
 }

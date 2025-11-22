@@ -1,6 +1,6 @@
 import { inject, Injectable } from '@angular/core'
 import { HttpClient } from '@angular/common/http'
-import { Observable } from 'rxjs'
+import { Observable, shareReplay } from 'rxjs'
 import { Keychain } from '../types/keychain'
 
 @Injectable({
@@ -9,7 +9,11 @@ import { Keychain } from '../types/keychain'
 export class KeychainService {
   private readonly _http = inject(HttpClient)
 
-  getKeychains(): Observable<Keychain[]> {
-    return this._http.get<Keychain[]>('/data/keychains/keychains.json')
+  private readonly keychains$ = this._http
+    .get<Keychain[]>('/data/keychains/keychains.json')
+    .pipe(shareReplay(1))
+
+  getAll(): Observable<Keychain[]> {
+    return this.keychains$
   }
 }

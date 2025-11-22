@@ -1,5 +1,18 @@
-<div class="grid grid-cols-2 scroll-m-1.5:grid-cols-3 lg:grid-cols-4 gap-2">
-  @for (artist of artists(); track artist.id) {
-  <artist-card [artist]="artist"></artist-card>
-  }
+<div class="flex flex-col gap-12">
+  <div class="flex flex-col gap-4 mt-8 text-center text-(--color-tertiary)">
+    <p class="text-4xl font-bold">Meet Our Artists</p>
+
+    <p>
+      Lorem ipsum dolor sit, amet consectetur adipisicing elit. Libero,
+      consectetur! Asperiores, ut laboriosam! In quam ipsam error provident.
+      Quaerat animi nostrum, fugit quas eum dolorum possimus veritatis! Quasi,
+      tenetur ut.
+    </p>
+  </div>
+
+  <div class="grid grid-cols-2 scroll-m-1.5:grid-cols-3 lg:grid-cols-4 gap-2">
+    @for (artist of artists(); track artist.id) {
+    <artist-card [artist]="artist"></artist-card>
+    }
+  </div>
 </div>

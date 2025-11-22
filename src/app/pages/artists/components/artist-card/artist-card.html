@@ -2,7 +2,7 @@
 
 <div
   [id]="_artist.id"
-  class="group w-full flex flex-col justify-center items-center gap-4 p-3 rounded-xl bg-(--color-secondary)"
+  class="group w-full flex flex-col justify-center items-center text-center gap-6 p-3 rounded-xl bg-(--color-secondary) text-(--color-tertiary)"
 >
   <div
     class="w-24 aspect-square flex-none flex justify-center items-center overflow-hidden bg-(--color-tertiary) rounded-full"
@@ -17,12 +17,23 @@
     }
   </div>
 
-  <span class="text-2xl font-semibold truncate text-(--color-tertiary)">
-    {{ _artist.name }}
-  </span>
+  <div>
+    <p class="text-2xl leading-6 font-semibold truncate">
+      {{ _artist.name }}
+    </p>
+
+    <p class="truncate">
+      {{ shopItemAggregateService.getCountFor(_artist.id) }} items contributed
+    </p>
+  </div>
 
   <div class="flex items-center gap-2">
-    <a [href]="_artist.url" target="_blank" tooltip="ACGgoods">
+    <a
+      class="hover:scale-120 transition-transform duration-150"
+      [href]="_artist.url"
+      target="_blank"
+      tooltip="ACGgoods"
+    >
       <img
         class="w-4.5 aspec-square -translate-y-1"
         src="/lottie/bag-tertiary.webp"
@@ -31,12 +42,12 @@
 
     @for (otherUrl of _artist.otherUrls; track otherUrl.url) {
     <a
-      class="flex items-center justify-center"
+      class="flex items-center justify-center hover:scale-120 transition-transform duration-150"
       [href]="otherUrl.url"
       target="_blank"
       [tooltip]="otherUrl.label"
     >
-      <i [class]="`text-xl text-(--color-tertiary) ${otherUrl.icon}`"></i>
+      <i [class]="`text-xl ${otherUrl.icon}`"></i>
     </a>
     }
   </div>

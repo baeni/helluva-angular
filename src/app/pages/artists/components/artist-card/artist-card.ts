@@ -8,6 +8,7 @@ import {
 import { Artist } from '../../../../shared/types/artist'
 import { isPlatformBrowser } from '@angular/common'
 import { Tooltip } from '../../../../shared/directives/tooltip'
+import { ShopItemAggregateService } from '../../../../shared/services/shop-item-aggregate-service'
 
 @Component({
   selector: 'artist-card',
@@ -17,6 +18,8 @@ import { Tooltip } from '../../../../shared/directives/tooltip'
 })
 export class ArtistCard {
   private readonly _platformId = inject(PLATFORM_ID)
+  protected readonly shopItemAggregateService: ShopItemAggregateService =
+    inject(ShopItemAggregateService)
 
   readonly artist = input.required<Artist>()
 
