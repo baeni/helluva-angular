@@ -5,8 +5,8 @@ import { Stickers } from './pages/stickers/stickers'
 import { Keychains } from './pages/keychains/keychains'
 import { DefaultLayout } from './shared/layouts/default-layout/default-layout'
 import { environment } from '../environments/environment'
-
-const appTitle: string = 'HellACollab Snowball-Fight Fan Merch'
+import { inject } from '@angular/core'
+import { APP_INFO } from './app.config'
 
 export const routes: Routes = [
   {
@@ -19,24 +19,35 @@ export const routes: Routes = [
           {
             path: 'standees',
             component: Standees,
-            title: `Standees — ${appTitle}`,
+            title: () => {
+              const { name } = inject(APP_INFO)
+              return `Standees — ${name}`
+            },
           },
           {
             path: 'keychains',
             component: Keychains,
-            title: `Keychains — ${appTitle}`,
+            title: () => {
+              const { name } = inject(APP_INFO)
+              return `Keychains — ${name}`
+            },
           },
           {
             path: 'stickers',
             component: Stickers,
-            title: `Stickers — ${appTitle}`,
+            title: () => {
+              const { name } = inject(APP_INFO)
+              return `Stickers — ${name}`
+            },
           },
           {
             path: 'artists',
             component: Artists,
-            title: `Artists — ${appTitle}`,
+            title: () => {
+              const { name } = inject(APP_INFO)
+              return `Artists — ${name}`
+            },
           },
-
           {
             path: '**',
             redirectTo: 'standees',
@@ -48,9 +59,11 @@ export const routes: Routes = [
           {
             path: 'artists',
             component: Artists,
-            title: `Artists — ${appTitle}`,
+            title: () => {
+              const { name } = inject(APP_INFO)
+              return `Artists — ${name}`
+            },
           },
-
           {
             path: '**',
             redirectTo: 'artists',

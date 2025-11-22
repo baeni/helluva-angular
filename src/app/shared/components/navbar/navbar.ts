@@ -12,6 +12,7 @@ import { environment } from '../../../../environments/environment'
 import { NgClass } from '@angular/common'
 import { Tooltip } from '../../directives/tooltip'
 import { LottieCacheService } from '../../services/lottie-cache-service'
+import { APP_INFO, AppInfo } from '../../../app.config'
 
 @Component({
   selector: 'navbar',
@@ -22,6 +23,8 @@ import { LottieCacheService } from '../../services/lottie-cache-service'
 export class Navbar {
   private readonly _lottieCacheService: LottieCacheService =
     inject(LottieCacheService)
+
+  protected readonly appInfo: AppInfo = inject(APP_INFO)
 
   protected readonly isOverlayOpen = signal<boolean>(false)
 

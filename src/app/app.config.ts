@@ -1,5 +1,6 @@
 import {
   ApplicationConfig,
+  InjectionToken,
   provideBrowserGlobalErrorListeners,
   provideZonelessChangeDetection,
 } from '@angular/core'
@@ -25,3 +26,14 @@ export const appConfig: ApplicationConfig = {
     provideCacheableAnimationLoader(),
   ],
 }
+
+export interface AppInfo {
+  readonly name: string
+}
+
+export const APP_INFO = new InjectionToken<AppInfo>('APP_INFO', {
+  providedIn: 'root',
+  factory: () => ({
+    name: 'HellACollab Snowball-Fight Fan Merch',
+  }),
+})

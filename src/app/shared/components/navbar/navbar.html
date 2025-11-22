@@ -1,12 +1,7 @@
-<div class="flex justify-between items-center h-18 mx-4 md:mx-0">
-  <div class="flex gap-2 items-center">
-    <img class="w-36 -translate-x-4" src="/data/logo.png" />
-    <h1 class="text-lg text-(--color-tertiary) font-black">
-      HellACollab Snowball-Fight Fan Merch
-    </h1>
-  </div>
+<div class="flex justify-between items-center h-18 mx-4 lg:mx-0">
+  <img class="w-36 -translate-x-3.5" src="/data/logo.png" />
 
-  <div class="hidden md:flex gap-4 items-center">
+  <div class="hidden lg:flex gap-4 items-center">
     @for (item of items; track item.route) {
     <a
       [tooltipDisabled]="!item.disabled"
@@ -27,7 +22,7 @@
   </div>
 
   <button
-    class="md:hidden relative w-8 aspect-square overflow-hidden z-50!"
+    class="lg:hidden relative w-8 aspect-square overflow-hidden z-50!"
     (click)="toggleOverlay()"
   >
     <ng-lottie
