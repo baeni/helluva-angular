@@ -1,17 +1,17 @@
 @let _shopItem = shopItem();
 
 <a
-  class="group w-full flex flex-col gap-2 p-(--content-padding) rounded-xl bg-(--color-secondary) hover:bg-(--color-tertiary) transition-colors duration-500"
+  class="group w-full flex flex-col gap-2 p-(--content-padding) rounded-xl border-2 border-(--color-tertiary)/20 bg-(--color-secondary) hover:bg-(--color-tertiary) transition-colors duration-500"
   [href]="_shopItem.url"
   target="_blank"
   (mouseenter)="playForward()"
   (mouseleave)="playReverse()"
 >
   <div
-    class="w-full aspect-square overflow-hidden rounded-sm group-hover:rounded-md group-hover:scale-103 transition-all duration-500 bg-(--color-primary)/50"
+    class="w-full aspect-square overflow-hidden rounded-sm group-hover:rounded-md group-hover:scale-103 transition-all duration-500 bg-linear-to-br from-(--color-primary)/50 to-(--color-primary)/15"
   >
     <img
-      class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
+      class="w-full h-full object-cover group-hover:scale-105 group-hover:-rotate-2 transition-transform duration-500"
       [src]="_shopItem.thumbnail"
       (error)="onImageError($event, _shopItem)"
     />

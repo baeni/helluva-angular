@@ -2,10 +2,10 @@
 
 <div
   [id]="_artist.id"
-  class="group w-full flex flex-col justify-center items-center text-center gap-6 p-3 rounded-xl bg-(--color-secondary) text-(--color-tertiary)"
+  class="group w-full flex flex-col justify-center items-center text-center gap-6 p-3 rounded-xl border-2 border-(--color-tertiary)/20 bg-(--color-secondary) text-(--color-tertiary)"
 >
   <div
-    class="w-24 aspect-square flex-none flex justify-center items-center overflow-hidden bg-(--color-tertiary) rounded-full"
+    class="w-24 aspect-square flex-none flex justify-center items-center overflow-hidden rounded-full group-hover:scale-110 transition-all duration-500 bg-linear-to-br from-(--color-tertiary)/50 to-(--color-tertiary)/15"
   >
     @if (_artist.thumbnail) {
     <img
